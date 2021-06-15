@@ -42,6 +42,7 @@ public class MyTest {
 	}
 
 	// method to generate questions
+	@SuppressWarnings("unused")
 	private void generateQuestion() {
 		for (int question = 0; question < questionSet.size(); question++) {
 			System.out.println(questionSet.get(question).getQuestion());

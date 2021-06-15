@@ -36,7 +36,7 @@ public class App {
 
 		MyTest mytest1 = new MyTest();
 		mytest1.setTestName("Java");
-		mytest1.setTestLevel("1");
+		mytest1.setTestLevel("225");
 
 		mytest1.setQuestionSet(queList);
 
