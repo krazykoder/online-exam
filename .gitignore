@@ -1,8 +1,8 @@
-*
-!*/
-!.gitattributes
-!.gitignore
-!*.java
+#*
+#!*/
+#!.gitattributes
+#!.gitignore
+#!*.java
 
 # Compiled class file
 *.class
