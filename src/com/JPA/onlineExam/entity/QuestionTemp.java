@@ -10,7 +10,7 @@ public class QuestionTemp {
 	private String choice_4;
 	private String answer;
 
-	private MyTest test;
+	private TestPaper test;
 
 	public int getQid() {
 		return Qid;
@@ -36,11 +36,11 @@ public class QuestionTemp {
 		this.answer = answer;
 	}
 
-	public MyTest getTest() {
+	public TestPaper getTest() {
 		return test;
 	}
 
-	public void setTest(MyTest test) {
+	public void setTest(TestPaper test) {
 		this.test = test;
 	}
 

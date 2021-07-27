@@ -1,80 +1,40 @@
 package com.JPA.onlineExam.servlet;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.io.FileNotFoundException;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 
 import org.junit.Test;
 
-import com.JPA.onlineExam.entity.MyTest;
-import com.JPA.onlineExam.entity.Question;
+import com.JPA.onlineExam.entity.myEntityManager;
 
 public class App {
 
 	@Test
-	public void Test_Question_App() {
+	public void fillDatabase() throws IllegalStateException, FileNotFoundException {
 
-		Question question1 = new Question();
-		question1.setQid(101);
-		question1.setQuestion("What is java ?");
+		// Get entity Manager
+		myEntityManager M = new myEntityManager();
+		EntityManager em = M.getentitymanager();
 
-		Question question2 = new Question();
-		question2.setQid(102);
-		question2.setQuestion("What is javadca ?");
+		// import all question to database
+		QuesCsv2db_Insert ques = new QuesCsv2db_Insert();
+		ques.importTodb(em);
 
-		Question question3 = new Question();
-		question3.setQid(103);
-		question3.setQuestion("What is java aaa?");
+//		// Generate tests with random questions
+		MyTest_csv2db mytest = new MyTest_csv2db();
+		mytest.generateTestPaper(em); // generate 4 tests
 
-		List<Question> queList = new ArrayList<Question>();
-		queList.add(question1);
-		queList.add(question2);
-		queList.add(question3);
+		// Generate some 'fake' attempted tests
+		AttemptedTest_csv2db am = new AttemptedTest_csv2db();
+		am.insertAttemptedTest(em); // sample attempt 1
+		am.insertAttemptedTest(em); // sample attempt 2
+		am.insertAttemptedTest(em); // sample attempt 3
 
-		MyTest mytest1 = new MyTest();
-		mytest1.setTestName("Java");
-		mytest1.setTestLevel("1");
+		M.closeAll(); // remember to close the connection
+	}
 
-		mytest1.setQuestionSet(queList);
-
-//			SessionFactory sessionFactory = null;
-//			// configures settings from hibernate.cfg.xml
-//			final StandardServiceRegistry registry = new StandardServiceRegistryBuilder().configure().build();
-//
-//			try {
-//				sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
-//			} catch (Exception ex) {
-//				System.out.println(ex.toString()); // If error display in console
-//				StandardServiceRegistryBuilder.destroy(registry);
-//			}
-//			Session session = sessionFactory.openSession();
-//			session.beginTransaction();
-//			List<Student> studentlist = this.csvToclass();
-//			studentlist.forEach(x -> session.save(x));
-//			session.getTransaction().commit();
-//			session.close();
-
-		// use persistence.xml configuration
-
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("JPA_Test_Question");
-		EntityManager em = emf.createEntityManager();
-		em.getTransaction().begin();
-
-//			List<Customer> custlist1 = this.CustomerDetals();
-//			custlist1.forEach(x -> em.persist(x));
-//			custlist1.forEach(x -> em.merge(x));
-
-		em.merge(question1);
-		em.merge(question2);
-		em.merge(question3);
-		em.merge(mytest1);
-		em.getTransaction().commit();
-
-		em.close();
-		emf.close();
+	public void faketest() {
 
 	}
 

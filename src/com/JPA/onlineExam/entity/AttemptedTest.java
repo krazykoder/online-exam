@@ -30,13 +30,13 @@ public class AttemptedTest {
 
 	@ManyToOne
 	@JoinColumn(name = "testId")
-	private MyTest test;
+	private TestPaper test;
 
-	public MyTest getTest() {
+	public TestPaper getTest() {
 		return test;
 	}
 
-	public void setTest(MyTest test) {
+	public void setTest(TestPaper test) {
 		this.test = test;
 	}
 

@@ -9,8 +9,8 @@ import javax.persistence.Query;
 
 import org.junit.Test;
 
-import com.JPA.onlineExam.entity.MyTest;
 import com.JPA.onlineExam.entity.Question;
+import com.JPA.onlineExam.entity.TestPaper;
 
 public class MyTest_csv2db {
 
@@ -49,8 +49,8 @@ public class MyTest_csv2db {
 		em.getTransaction().begin();
 
 		Query query = em.createQuery("FROM MyTest where testId=1");
-		List<MyTest> testPaper = query.getResultList();
-		for (MyTest obj : testPaper) {
+		List<TestPaper> testPaper = query.getResultList();
+		for (TestPaper obj : testPaper) {
 			for (Question q : obj.getQuestionSet()) {
 				System.out.println(q.getQuestion() + "        " + q.getChoice_1() + "     " + q.getChoice_2() + "      "
 						+ q.getChoice_3() + "     " + q.getChoice_4());
@@ -65,14 +65,25 @@ public class MyTest_csv2db {
 	}
 
 	@Test
-	public void generateQuestions() {
+
+	public void generateTestPaper() {
 
 		// use persistence.xml configuration
-
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("JPA_Online_Exam");
 		EntityManager em = emf.createEntityManager();
+
+		generateTestPaper(em);
+		em.close();
+		emf.close();
+	}
+
+// overload 
+	public void generateTestPaper(EntityManager em) {
+
+		// use persistence.xml configuration
 		em.getTransaction().begin();
-		for (int i = 1; i <= 1; i++) {
+
+		for (int i = 1; i <= 4; i++) {
 			Query query = em.createQuery(
 					"FROM Question where Qid>=FLOOR(RAND()*(25-10+1))+10 AND Qid<FLOOR(RAND()*(50-10+1))+30 ");
 			List<Question> results = query.getResultList();
@@ -83,7 +94,7 @@ public class MyTest_csv2db {
 
 			}
 
-			MyTest test1 = new MyTest();
+			TestPaper test1 = new TestPaper();
 			test1.setQuestionSet(results);
 			test1.setTestName("Full Stack JAVA");
 			test1.setTestLevel("I");
@@ -92,9 +103,5 @@ public class MyTest_csv2db {
 
 		em.getTransaction().commit();
 
-		em.close();
-		emf.close();
-
 	}
-
 }

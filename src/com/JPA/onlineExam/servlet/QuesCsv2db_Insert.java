@@ -18,6 +18,7 @@ import com.opencsv.bean.CsvToBeanBuilder;
 
 public class QuesCsv2db_Insert {
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public List<QuestionTemp> DatacsvToclass(String filepath) throws IllegalStateException, FileNotFoundException {
 
 		List<QuestionTemp> Queslist = new CsvToBeanBuilder(new FileReader(filepath)).withType(QuestionTemp.class)
@@ -30,7 +31,7 @@ public class QuesCsv2db_Insert {
 	}
 
 	public List<Question> DataDetails() throws IllegalStateException, FileNotFoundException {
-		String filename = "D:\\Workspace\\online_exam\\src\\com\\JPA\\onlineExam\\entity\\MCQDBSample1.csv";
+		String filename = "H:\\WorkSpace_Eclipse3\\online_exam\\src\\com\\JPA\\onlineExam\\entity\\MCQDBSample1.csv";
 		return DataDetails(filename);
 
 	}
@@ -70,10 +71,24 @@ public class QuesCsv2db_Insert {
 		em.getTransaction().begin();
 
 		List<Question> queslist1 = this.DataDetails();
+//		System.out.println(queslist1);
 		queslist1.forEach(x -> em.merge(x));
 		em.getTransaction().commit();
 		em.close();
 		emf.close();
+
+	}
+
+	public void importTodb(EntityManager em) throws IllegalStateException, FileNotFoundException {
+
+		// use persistence.xml configuration
+
+		em.getTransaction().begin();
+
+		List<Question> queslist1 = this.DataDetails();
+//		System.out.println(queslist1);
+		queslist1.forEach(x -> em.merge(x));
+		em.getTransaction().commit();
 
 	}
 
