@@ -1,3 +1,11 @@
+*
+!.gitattributes
+!.gitignore
+!readme.md
+!.gitkeep
+!*.java
+!*/
+
 # Compiled class file
 *.class
 
