@@ -1,4 +1,4 @@
-"ID","Question","choice_1","choice_2","choice_3","choice_4","answer"
+"ID","Question","Answer1","Answer2","Answer3","Answer4","Correct"
 "6","What is the maximum number of half-pint bottles of cream that can be filled with a 4-gallon can of cream(2 pt.=1 qt. and 4 qt.=1 gal)
 ","16","24","30","64","D"
 "9","There are 200 questions on a 3 hr examination.Among these questions are 50 mathematics problems.It is suggested that twice as much time be spent on each maths problem as for each other question.How many minutes should be spent on mathematics problems","36","72","60","100","B"
