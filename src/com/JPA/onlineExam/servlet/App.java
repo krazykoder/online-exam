@@ -12,6 +12,8 @@ import org.junit.Test;
 import com.JPA.onlineExam.entity.MyTest;
 import com.JPA.onlineExam.entity.Question;
 
+// This is an initial version of the App
+
 public class App {
 
 	@Test
