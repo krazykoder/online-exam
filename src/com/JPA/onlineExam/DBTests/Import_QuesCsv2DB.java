@@ -1,5 +1,6 @@
-package com.JPA.onlineExam.servlet;
+package com.JPA.onlineExam.DBTests;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
@@ -15,14 +16,21 @@ import org.junit.Test;
 import com.JPA.onlineExam.entity.Question;
 import com.JPA.onlineExam.entity.QuestionTemp;
 import com.opencsv.bean.CsvToBeanBuilder;
+import com.tow.libs.resourceManager;
 
-public class QuesCsv2db_Insert {
+public class Import_QuesCsv2DB {
 
 	@SuppressWarnings({ "unchecked", "rawtypes" })
-	public List<QuestionTemp> DatacsvToclass(String filepath) throws IllegalStateException, FileNotFoundException {
+	public List<QuestionTemp> DatacsvToclass(String filename) throws IllegalStateException, FileNotFoundException {
 
-		List<QuestionTemp> Queslist = new CsvToBeanBuilder(new FileReader(filepath)).withType(QuestionTemp.class)
-				.build().parse();
+		filename = "data/" + filename;
+		
+		// call file from resource manager
+		resourceManager rm = new resourceManager();
+		File fileobj = rm.getResourceFile(filename);
+
+		List<QuestionTemp> Queslist = new CsvToBeanBuilder(new FileReader(fileobj)).withType(QuestionTemp.class).build()
+				.parse();
 
 //		beans.forEach(System.out::println);
 
@@ -31,15 +39,15 @@ public class QuesCsv2db_Insert {
 	}
 
 	public List<Question> DataDetails() throws IllegalStateException, FileNotFoundException {
-		String filename = "H:\\WorkSpace_Eclipse3\\online_exam\\src\\com\\JPA\\onlineExam\\entity\\MCQDBSample1.csv";
+		String filename = "MCQDBSample3.csv";
 		return DataDetails(filename);
 
 	}
 
 	// @Test
-	public List<Question> DataDetails(String filepath) throws IllegalStateException, FileNotFoundException {
+	public List<Question> DataDetails(String fileName) throws IllegalStateException, FileNotFoundException {
 		// System.out.println(filepath);
-		List<QuestionTemp> queslist = DatacsvToclass(filepath);
+		List<QuestionTemp> queslist = DatacsvToclass(fileName);
 
 		List<Question> queslist1 = new ArrayList<Question>();
 		queslist1 = queslist.stream().map(cust -> {

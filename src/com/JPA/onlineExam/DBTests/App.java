@@ -1,4 +1,4 @@
-package com.JPA.onlineExam.servlet;
+package com.JPA.onlineExam.DBTests;
 
 import java.io.FileNotFoundException;
 
@@ -18,7 +18,7 @@ public class App {
 		EntityManager em = M.getentitymanager();
 
 		// import all question to database
-		QuesCsv2db_Insert ques = new QuesCsv2db_Insert();
+		Import_QuesCsv2DB ques = new Import_QuesCsv2DB();
 		ques.importTodb(em);
 
 //		// Generate tests with random questions

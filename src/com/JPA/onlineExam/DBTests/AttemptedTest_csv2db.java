@@ -1,4 +1,4 @@
-package com.JPA.onlineExam.servlet;
+package com.JPA.onlineExam.DBTests;
 
 import java.util.HashMap;
 import java.util.List;

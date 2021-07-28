@@ -1,4 +1,4 @@
-package com.JPA.onlineExam.servlet;
+package com.JPA.onlineExam.DBTests;
 
 import java.util.ArrayList;
 import java.util.List;
