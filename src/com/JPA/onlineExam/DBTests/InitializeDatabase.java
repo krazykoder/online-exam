@@ -47,7 +47,7 @@ public class InitializeDatabase {
 
 		// Generate some fake users and map to AttemptedTest
 		User u1 = new User(1, "Morris", "Lovemorris");
-		List<AttemptedTest> p = new ArrayList();
+		List<AttemptedTest> p = new ArrayList<AttemptedTest>();
 		p.add(t1);
 		p.add(t2);
 		u1.setAtemptTestSet(p);
@@ -56,7 +56,7 @@ public class InitializeDatabase {
 //		System.out.println(t1.toString());
 
 		User u2 = new User(2, "Hella", "Lovehella");
-		List<AttemptedTest> q = new ArrayList();
+		List<AttemptedTest> q = new ArrayList<AttemptedTest>();
 		q.add(t3);
 		q.add(t4);
 //		q.add(t1); // will throw constraint violation error 
@@ -84,6 +84,7 @@ public class InitializeDatabase {
 	/*****************************************************
 	 * GENERATE TEST PAPERS (SAMPLE)
 	 ******************************************************/
+	@SuppressWarnings("unchecked")
 	public void generateSampleTestPapers(EntityManager em) {
 
 		// use persistence.xml configuration
@@ -111,6 +112,7 @@ public class InitializeDatabase {
 
 	}
 
+	@SuppressWarnings("unchecked")
 	public TestPaper generateTestPaper(EntityManager em) {
 
 		// use persistence.xml configuration

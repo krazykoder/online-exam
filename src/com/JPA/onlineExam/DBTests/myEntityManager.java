@@ -15,6 +15,7 @@ public class myEntityManager {
 	public void closeAll() {
 		em.close();
 		emf.close();
+
 	}
 
 }
