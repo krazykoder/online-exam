@@ -28,11 +28,14 @@ public class resourceManager {
 
 	@Test 
 	public void resourceTest () { 
+		
+		String dataloc= "."; 
+		
 		ClassLoader classLoader = getClass().getClassLoader();
 //		File n = new File (classLoader.getResource("/xyz1.xml").getPath());
 //		File n = new File (classLoader.getResource("hibernate.cfg.xml").getFile());
-		String dataloc = classLoader.getResource("hibernate.cfg.xml").getPath();
-		System.out.println(dataloc);
+//		String dataloc = classLoader.getResource("hibernate.cfg.xml").getPath();
+//		System.out.println(dataloc);
 		
 		dataloc = classLoader.getResource("data/Users.csv").getPath();
 		System.out.println(dataloc);

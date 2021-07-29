@@ -8,7 +8,7 @@
 	
 	<persistence-unit name="JPA_Test_Question">
 		<class>com.JPA.onlineExam.entity.Question</class>
-		<class>com.JPA.onlineExam.entity.MyTest</class>
+		<class>com.JPA.online.old.MyTest</class>
 		
 		
 		<properties>

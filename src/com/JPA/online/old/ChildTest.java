@@ -1,3 +1,4 @@
+package com.JPA.online.old;
 //package com.JPA.onlineExam.entity;
 //
 //import javax.persistence.Entity;

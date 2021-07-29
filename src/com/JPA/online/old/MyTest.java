@@ -1,4 +1,4 @@
-package com.JPA.onlineExam.entity;
+package com.JPA.online.old;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,8 +8,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
+import com.JPA.onlineExam.entity.Question;
 
 @Entity
 @Table(name = "test")
@@ -26,7 +27,7 @@ public class MyTest {
 	@Column(name = "testLevel")
 	private String testLevel;
 
-	@OneToMany(mappedBy = "test")
+//	@OneToMany(mappedBy = "test")
 	private List<Question> questionSet = new ArrayList<Question>();
 
 	public void addQuestion(Question question) {
@@ -42,20 +43,20 @@ public class MyTest {
 	}
 
 	// method to generate questions
-	@SuppressWarnings("unused")
-	private void generateQuestion() {
-		for (int question = 0; question < questionSet.size(); question++) {
-			System.out.println(questionSet.get(question).getQuestion());
-			int numChoices = questionSet.get(question).getChoices().size();
-
-			// show choices from questions in question set
-
-			for (int choice = 0; choice < numChoices; choice++) {
-				System.out.println((choice + 1) + ":" + questionSet.get(question).getChoices().get(choice));
-			}
-		}
-
-	}
+	/*
+	 * @SuppressWarnings("unused") private void generateQuestion() { for (int
+	 * question = 0; question < questionSet.size(); question++) {
+	 * System.out.println(questionSet.get(question).getQuestion()); int numChoices =
+	 * questionSet.get(question).getChoices().size();
+	 * 
+	 * // show choices from questions in question set
+	 * 
+	 * for (int choice = 0; choice < numChoices; choice++) {
+	 * System.out.println((choice + 1) + ":" +
+	 * questionSet.get(question).getChoices().get(choice)); } }
+	 * 
+	 * }
+	 */
 
 	public int getTestId() {
 		return testId;
