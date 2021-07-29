@@ -29,9 +29,9 @@
 		</properties>
 	</persistence-unit>
 
-<!-- 	<persistence-unit name="JPA_Test_Question"
+<!-- NOT MAINTAINED :: OLD PERS unit for initial codes for the project -->
+	<persistence-unit name="JPA_Test_Question"
 		transaction-type="RESOURCE_LOCAL">
-		
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<class>com.JPA.onlineExam.entity.Question</class>
 		<class>com.JPA.online.old.MyTest</class>
@@ -50,5 +50,5 @@
 			<property name="hibernate.hbm2ddl.auto" value="create " />
 
 		</properties>
-	</persistence-unit> -->
+	</persistence-unit>
 </persistence>

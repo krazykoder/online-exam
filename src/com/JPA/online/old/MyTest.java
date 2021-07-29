@@ -8,6 +8,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import com.JPA.onlineExam.entity.Question;
@@ -27,7 +28,7 @@ public class MyTest {
 	@Column(name = "testLevel")
 	private String testLevel;
 
-//	@OneToMany(mappedBy = "test")
+	@OneToMany //(mappedBy = "test") // removed object reference
 	private List<Question> questionSet = new ArrayList<Question>();
 
 	public void addQuestion(Question question) {
