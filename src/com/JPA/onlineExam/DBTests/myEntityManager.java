@@ -1,4 +1,4 @@
-package com.JPA.onlineExam.entity;
+package com.JPA.onlineExam.DBTests;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -15,7 +15,6 @@ public class myEntityManager {
 	public void closeAll() {
 		em.close();
 		emf.close();
-
 	}
 
 }
