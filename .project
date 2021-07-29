@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>online_exam</name>
+	<name>onlineExam</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -47,9 +47,9 @@
 		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
-		<nature>org.jboss.tools.jst.web.kb.kbnature</nature>
+		<!-- <nature>org.jboss.tools.jst.web.kb.kbnature</nature>
 		<nature>org.jboss.tools.cdi.core.cdinature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
-		<nature>org.hibernate.eclipse.console.hibernateNature</nature>
+		<nature>org.hibernate.eclipse.console.hibernateNature</nature> -->
 	</natures>
 </projectDescription>
