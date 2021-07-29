@@ -6,8 +6,6 @@ import javax.persistence.EntityManager;
 
 import org.junit.Test;
 
-import com.JPA.onlineExam.entity.myEntityManager;
-
 public class App {
 
 	@Test
