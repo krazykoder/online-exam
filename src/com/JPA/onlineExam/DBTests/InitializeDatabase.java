@@ -215,11 +215,10 @@ class myEntityManager {
 	public EntityManager getentitymanager() {
 		return em;
 	}
-
+	
 	public void closeAll() {
 		em.close();
 		emf.close();
-
 	}
 
 }

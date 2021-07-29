@@ -29,10 +29,12 @@
 		</properties>
 	</persistence-unit>
 
-	<persistence-unit name="JPA_Test_Question">
+<!-- 	<persistence-unit name="JPA_Test_Question"
+		transaction-type="RESOURCE_LOCAL">
+		
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<class>com.JPA.onlineExam.entity.Question</class>
 		<class>com.JPA.online.old.MyTest</class>
-
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
@@ -48,5 +50,5 @@
 			<property name="hibernate.hbm2ddl.auto" value="create " />
 
 		</properties>
-	</persistence-unit>
+	</persistence-unit> -->
 </persistence>
