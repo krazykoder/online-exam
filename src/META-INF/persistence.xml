@@ -4,19 +4,24 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
              http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
 	version="2.1">
-	<persistence-unit name="JPA_Online_Exam"
-		transaction-type="RESOURCE_LOCAL">
-		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+	
+	
+<persistence-unit name="JPA_Online_Exam" transaction-type="RESOURCE_LOCAL">
+	<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<class>com.JPA.onlineExam.entity.Question</class>
 		<class>com.JPA.onlineExam.entity.TestPaper</class>
 		<class>com.JPA.onlineExam.entity.AttemptedTest</class>
 		<class>com.JPA.onlineExam.entity.User</class>
+		<class>com.JPA.onlineExam.entity.Topic</class>
+		<class>com.JPA.onlineExam.entity.Score</class>
+		<class>com.JPA.onlineExam.entity.DailyActivity</class>
+		<class>com.JPA.onlineExam.entity.Zip</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.jdbc.Driver" />
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://localhost:3306/test_question?useSSL=false" />
+				value="jdbc:mysql://localhost:3306/test_question2?useSSL=false" />
 			<property name="javax.persistence.jdbc.user" value="root" />
 			<property name="javax.persistence.jdbc.password"
 				value="admin" />

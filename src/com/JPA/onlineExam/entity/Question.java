@@ -19,7 +19,6 @@ public class Question {
 	private int Qid;
 	@Column(length = 3000)
 	private String Question;
-//	private ArrayList<String> choices;
 	@Column(length = 1000)
 	private String choice_1;
 	@Column(length = 1000)
@@ -30,21 +29,6 @@ public class Question {
 	private String choice_4;
 	@Column(length = 1000)
 	private String answer;
-
-//	@ManyToOne
-//	private MyTest test;
-
-//	public Question(String question, String[] choices, String answer) {
-//		this.question = question;
-//		this.choices = new ArrayList<String>();
-//		for (int i = 0; i < choices.length; i++) {
-//			this.choices.add(choices[i]);
-//		}
-//
-//		// make sure each test shows questions in different order
-//		Collections.shuffle(this.choices);
-//		this.answer = answer;
-//	}
 
 	public Question() {
 
@@ -58,21 +42,9 @@ public class Question {
 		Qid = qid;
 	}
 
-//	public MyTest getTest() {
-//		return test;
-//	}
-//
-//	public void setTest(MyTest test) {
-//		this.test = test;
-//	}
-
 	public void setQuestion(String question) {
 		this.Question = question;
 	}
-
-//	public void setChoices(ArrayList<String> choices) {
-//		this.choices = choices;
-//	}
 
 	public void setAnswer(String answer) {
 		this.answer = answer;
@@ -81,10 +53,6 @@ public class Question {
 	public String getQuestion() {
 		return Question;
 	}
-
-//	public ArrayList<String> getChoices() {
-//		return choices;
-//	}
 
 	public String getAnswer() {
 		return answer;

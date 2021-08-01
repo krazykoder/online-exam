@@ -2,7 +2,6 @@ package com.JPA.onlineExam.entity;
 
 import java.util.List;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,8 +19,8 @@ public class User {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "user_id")
-	private int user_id;
+	@Column(name = "userID")
+	private int userID;
 
 	@Column(name = "userName")
 	private String userName;
@@ -29,38 +28,63 @@ public class User {
 	@Column(name = "password")
 	private String password;
 
-//	@ManyToMany
-//	private List<MyTest> UnattemptTestSet;
+	@ManyToMany
+	private List<TestPaper> TestPaperSet;
 
 	@OneToMany
 	private List<AttemptedTest> atemptTestSet;
 
 	// allows nullable
 	@Nullable
-	@ManyToMany(cascade = CascadeType.ALL)
+	@ManyToMany
 	private List<User> friends;
 
-	public User() {
+	@OneToMany
+	private List<DailyActivity> activity;
 
-	}
+//	@ManyToMany
+//	private List<Topic> topics;
 
-	public User(int user_id, String userName, String password) {
-		super();
-		this.user_id = user_id;
-		this.userName = userName;
-		this.password = password;
-	}
+//	@Embedded
+	@OneToMany
+	private List<Zip> topicScore;
 
-	public int getUser_id() {
-		return user_id;
-	}
-
-	public void setUser_id(int user_id) {
-		this.user_id = user_id;
-	}
+//	private Map<Topic, Score> topicsScoreSet; // = new HashMap<Topics, Score>();
+//
+//	public Map<Topic, Score> getTopicsScoreSet() {
+//		return topicsScoreSet;
+//	}
+//
+//	public void setTopicsScoreSet(Map<Topic, Score> topicsScoreSet) {
+//		this.topicsScoreSet = topicsScoreSet;
+//	}
 
 	public String getUserName() {
 		return userName;
+	}
+
+//	public List<Topics> getTopics() {
+//		return topics;
+//	}
+//
+//	public void setTopics(List<Topics> topics) {
+//		this.topics = topics;
+//	}
+
+	public List<DailyActivity> getActivity() {
+		return activity;
+	}
+
+	public void setActivity(List<DailyActivity> activity) {
+		this.activity = activity;
+	}
+
+	public int getUser_id() {
+		return userID;
+	}
+
+	public void setUser_id(int user_id) {
+		this.userID = user_id;
 	}
 
 	public void setUserName(String userName) {
@@ -91,16 +115,19 @@ public class User {
 		this.friends = friends;
 	}
 
-//	@ManyToMany
-//	private List<DailyActivity> activity;
-//
-//	@ManyToMany
-//	private List<Topics> topics;
-//
-//	@ElementCollection
-//	private Map<Topics, Score> topicsScoreSet = new HashMap<Topics, Score>();
-//
-//	// @ManyToOne(cascade = { CascadeType.PERSIST, CascadeType.MERGE,
-//	// CascadeType.DETACH, CascadeType.REFRESH })
-//
+	public List<TestPaper> getUnattemptTestSet() {
+		return TestPaperSet;
+	}
+
+	public void setUnattemptTestSet(List<TestPaper> unattemptTestSet) {
+		TestPaperSet = unattemptTestSet;
+	}
+
+//	@Override
+//	public String toString() {
+//		return "User [user_id=" + user_id + ", userName=" + userName + ", password=" + password + ", TestPaperSet="
+//				+ TestPaperSet + ", atemptTestSet=" + atemptTestSet + ", friends=" + friends + ", activity=" + activity
+//				+ ", topicsScoreSet=" + topicsScoreSet + "]";
+//	}
+
 }

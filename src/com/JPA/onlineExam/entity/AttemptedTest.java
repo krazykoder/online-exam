@@ -1,8 +1,8 @@
 package com.JPA.onlineExam.entity;
 
-import java.util.HashMap;
 import java.util.Map;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
@@ -11,6 +11,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -28,9 +29,23 @@ public class AttemptedTest {
 	@Column(name = "finalScore")
 	private int finalScore;
 
-	@ManyToOne
+	@ManyToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "testId")
 	private TestPaper test;
+
+	@OneToOne
+	private Score testwiseScore;
+
+	@ElementCollection
+	private Map<Question, Character> questionAnswersSet; // = new HashMap<Question, Character>();
+
+	public int getSl_no() {
+		return sl_no;
+	}
+
+	public void setSl_no(int sl_no) {
+		this.sl_no = sl_no;
+	}
 
 	public TestPaper getTest() {
 		return test;
@@ -39,9 +54,6 @@ public class AttemptedTest {
 	public void setTest(TestPaper test) {
 		this.test = test;
 	}
-
-	@ElementCollection
-	private Map<Question, Character> questionAnswersSet = new HashMap<Question, Character>();
 
 //	public char getUser_ans() {
 //		return user_ans;
@@ -70,8 +82,8 @@ public class AttemptedTest {
 
 	@Override
 	public String toString() {
-		return "AttemptedTest [sl_no=" + sl_no + ", finalScore=" + finalScore + ", test=" + test
-				+ ", questionAnswersSet=" + questionAnswersSet + "]";
+		return "AttemptedTest [sl_no=" + sl_no + ", finalScore=" + finalScore + ", questionAnswersSet="
+				+ questionAnswersSet + "]";
 	}
 
 }
