@@ -3,16 +3,13 @@ package com.JPA.onlineExam.entity;
 import java.util.List;
 
 import javax.persistence.Column;
-import javax.persistence.Embeddable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
-@Embeddable
 @Entity
 @Table(name = "Topic")
 public class Topic {
@@ -22,11 +19,8 @@ public class Topic {
 	@Column(name = "topicId")
 	private int topicId;
 
-	@OneToMany // (mappedBy = "Topics")
+	@ManyToMany
 	private List<TestPaper> TestPapers;
-
-	@OneToOne
-	private Score topicwiseScore;
 
 	// private List<AttemptedTest> TestAttempted;
 	private String titletopic;

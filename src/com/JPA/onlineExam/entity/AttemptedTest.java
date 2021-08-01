@@ -34,10 +34,10 @@ public class AttemptedTest {
 	private TestPaper test;
 
 	@OneToOne
-	private Score testwiseScore;
+	private Score score;
 
 	@ElementCollection
-	private Map<Question, Character> questionAnswersSet; // = new HashMap<Question, Character>();
+	private Map<Question, Character> questionAnswersSet;
 
 	public int getSl_no() {
 		return sl_no;

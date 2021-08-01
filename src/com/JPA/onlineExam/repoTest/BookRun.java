@@ -1,0 +1,39 @@
+package com.JPA.onlineExam.repoTest;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import org.junit.Test;
+
+public class BookRun {
+
+	@Test
+	public void BookRun() {
+
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("JPA_Online_Exam");
+		EntityManager em = emf.createEntityManager();
+		em.getTransaction().begin();
+
+		Book b = new Book("The Magnificent");
+		Book c = new Book("The Sun");
+		Book d = new Book("The rainbow");
+
+		BookRepositoryImpl bookImpl = new BookRepositoryImpl(em);
+
+		bookImpl.saveBook(b);
+		bookImpl.saveBook(c);
+		bookImpl.saveBook(d);
+
+		System.out.println(bookImpl.getBookById(2).toString());
+
+		// bookImpl.getBookByTitle("The Sun");
+
+		em.getTransaction().commit();
+
+		em.close();
+		emf.close();
+
+	}
+
+}

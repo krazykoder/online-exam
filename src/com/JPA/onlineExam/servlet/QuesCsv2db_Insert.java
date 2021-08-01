@@ -28,8 +28,14 @@ public class QuesCsv2db_Insert {
 	}
 
 	public List<Question> DataDetails() throws IllegalStateException, FileNotFoundException {
-		String filename = "H:\\WorkSpace_Eclipse3\\onlineExam\\src\\com\\JPA\\onlineExam\\entity\\MCQDBSample1.csv";
-		return DataDetails(filename);
+		// String filename =
+		// "D:\\Workspace\\online_exam\\src\\com\\JPA\\onlineExam\\entity\\MCQDBSample1.csv";
+		String filename = "data/MCQDBSample1.csv";
+
+		ClassLoader classloader = getClass().getClassLoader();
+		String filePath = classloader.getResource(filename).getPath();
+		System.out.println(filePath);
+		return DataDetails(filePath);
 
 	}
 

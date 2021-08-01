@@ -19,8 +19,8 @@ public class User {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "userID")
-	private int userID;
+	@Column(name = "user_id")
+	private int user_id;
 
 	@Column(name = "userName")
 	private String userName;
@@ -42,34 +42,24 @@ public class User {
 	@OneToMany
 	private List<DailyActivity> activity;
 
-//	@ManyToMany
-//	private List<Topic> topics;
-
-//	@Embedded
 	@OneToMany
-	private List<Zip> topicScore;
+	private List<TopicWiseScore> scoreTopic;
 
-//	private Map<Topic, Score> topicsScoreSet; // = new HashMap<Topics, Score>();
-//
-//	public Map<Topic, Score> getTopicsScoreSet() {
-//		return topicsScoreSet;
-//	}
-//
-//	public void setTopicsScoreSet(Map<Topic, Score> topicsScoreSet) {
-//		this.topicsScoreSet = topicsScoreSet;
-//	}
-
-	public String getUserName() {
-		return userName;
+	public List<TestPaper> getTestPaperSet() {
+		return TestPaperSet;
 	}
 
-//	public List<Topics> getTopics() {
-//		return topics;
-//	}
-//
-//	public void setTopics(List<Topics> topics) {
-//		this.topics = topics;
-//	}
+	public void setTestPaperSet(List<TestPaper> testPaperSet) {
+		TestPaperSet = testPaperSet;
+	}
+
+	public List<TopicWiseScore> getScoreTopic() {
+		return scoreTopic;
+	}
+
+	public void setScoreTopic(List<TopicWiseScore> scoreTopic) {
+		this.scoreTopic = scoreTopic;
+	}
 
 	public List<DailyActivity> getActivity() {
 		return activity;
@@ -80,11 +70,15 @@ public class User {
 	}
 
 	public int getUser_id() {
-		return userID;
+		return user_id;
 	}
 
 	public void setUser_id(int user_id) {
-		this.userID = user_id;
+		this.user_id = user_id;
+	}
+
+	public String getUserName() {
+		return userName;
 	}
 
 	public void setUserName(String userName) {
