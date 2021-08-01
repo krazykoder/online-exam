@@ -1,12 +1,11 @@
 package com.JPA.onlineExam.entity;
 
-import javax.persistence.Embeddable;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
 
 @Entity
-@Embeddable
+//@Embeddable
 public class Zip {
 
 	@Id
@@ -17,4 +16,5 @@ public class Zip {
 
 	@OneToOne
 	private Score score;
+
 }
