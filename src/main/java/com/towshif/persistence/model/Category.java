@@ -21,11 +21,14 @@ public class Category extends Model {
 	private Long categoryId;
 	private String name;
 	private Long parentId;
+
 	@ManyToOne
 	@JoinColumn(name = "parentId", referencedColumnName = "categoryId", insertable = false, updatable = false)
 	private Category parent;
+
 	@OneToMany(mappedBy = "parent")
 	private List<Category> children;
+
 	@OneToMany(mappedBy = "category")
 	private List<Product> products;
 	private Date createAt;
