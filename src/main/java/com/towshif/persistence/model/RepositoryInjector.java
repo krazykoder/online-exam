@@ -13,10 +13,13 @@ import com.towshif.persistence.repository.TagRepository;
 public class RepositoryInjector {
 	@Inject
 	private CategoryRepository categoryRepository;
+
 	@Inject
 	private OrderRepository orderRepository;
+
 	@Inject
 	private ProductRepository productRepository;
+
 	@Inject
 	private TagRepository tagRepository;
 
