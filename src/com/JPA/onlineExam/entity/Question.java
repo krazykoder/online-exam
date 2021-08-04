@@ -16,7 +16,7 @@ public class Question {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column
-	private int Qid;
+	private int Id;
 	@Column(length = 3000)
 	private String Question;
 	@Column(length = 1000)
@@ -34,12 +34,12 @@ public class Question {
 
 	}
 
-	public int getQid() {
-		return Qid;
+	public int getId() {
+		return Id;
 	}
 
-	public void setQid(int qid) {
-		Qid = qid;
+	public void setId(int Id) {
+		Id = Id;
 	}
 
 	public void setQuestion(String question) {
@@ -92,7 +92,7 @@ public class Question {
 
 	@Override
 	public String toString() {
-		return "Question [Qid=" + Qid + ", Question=" + Question + ", choice_1=" + choice_1 + ", choice_2=" + choice_2
+		return "Question [Id=" + Id + ", Question=" + Question + ", choice_1=" + choice_1 + ", choice_2=" + choice_2
 				+ ", choice_3=" + choice_3 + ", choice_4=" + choice_4 + ", answer=" + answer + "]";
 	}
 

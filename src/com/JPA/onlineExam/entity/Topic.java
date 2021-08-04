@@ -16,8 +16,8 @@ public class Topic {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "topicId")
-	private int topicId;
+	@Column(name = "Id")
+	private int Id;
 
 	@ManyToMany
 	private List<TestPaper> TestPapers;
@@ -26,12 +26,12 @@ public class Topic {
 	private String titletopic;
 	private String content;
 
-	public int getTopicId() {
-		return topicId;
+	public int getId() {
+		return Id;
 	}
 
-	public void setTopicId(int topicId) {
-		this.topicId = topicId;
+	public void setId(int Id) {
+		this.Id = Id;
 	}
 
 	public List<TestPaper> getTestPapers() {
@@ -60,8 +60,8 @@ public class Topic {
 
 	@Override
 	public String toString() {
-		return "Topics [topicId=" + topicId + ", TestPapers=" + TestPapers + ", titletopic=" + titletopic + ", content="
-				+ content + "]";
+		return "Topics [Id=" + Id + ", TestPapers=" + TestPapers + ", titletopic=" + titletopic + ", content=" + content
+				+ "]";
 	}
 
 }

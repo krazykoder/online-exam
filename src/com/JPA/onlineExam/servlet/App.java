@@ -9,8 +9,8 @@ import javax.persistence.Persistence;
 
 import org.junit.Test;
 
-import com.JPA.onlineExam.entity.TestPaper;
 import com.JPA.onlineExam.entity.Question;
+import com.JPA.onlineExam.entity.TestPaper;
 
 public class App {
 
@@ -18,15 +18,15 @@ public class App {
 	public void Test_Question_App() {
 
 		Question question1 = new Question();
-		question1.setQid(101);
+		question1.setId(101);
 		question1.setQuestion("What is java ?");
 
 		Question question2 = new Question();
-		question2.setQid(102);
+		question2.setId(102);
 		question2.setQuestion("What is javadca ?");
 
 		Question question3 = new Question();
-		question3.setQid(103);
+		question3.setId(103);
 		question3.setQuestion("What is java aaa?");
 
 		List<Question> queList = new ArrayList<Question>();

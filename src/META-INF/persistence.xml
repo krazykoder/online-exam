@@ -16,6 +16,7 @@
 		<class>com.JPA.onlineExam.entity.Score</class>
 		<class>com.JPA.onlineExam.entity.DailyActivity</class>
 		<class>com.JPA.onlineExam.entity.Zip</class>
+		<class>com.JPA.onlineExam.repoTest.Book</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver"

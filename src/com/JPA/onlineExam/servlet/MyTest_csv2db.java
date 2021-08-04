@@ -9,8 +9,8 @@ import javax.persistence.Query;
 
 import org.junit.Test;
 
-import com.JPA.onlineExam.entity.TestPaper;
 import com.JPA.onlineExam.entity.Question;
+import com.JPA.onlineExam.entity.TestPaper;
 
 public class MyTest_csv2db {
 
@@ -27,7 +27,7 @@ public class MyTest_csv2db {
 				System.out.println(q.getQuestion() + "        " + q.getChoice_1() + "     " + q.getChoice_2() + "      "
 						+ q.getChoice_3() + "     " + q.getChoice_4());
 			}
-			System.out.println(obj.getTestId() + "   " + obj.getTestName() + "    " + obj.getTestLevel() + "    ");
+			System.out.println(obj.getId() + "   " + obj.getTestName() + "    " + obj.getTestLevel() + "    ");
 
 		}
 

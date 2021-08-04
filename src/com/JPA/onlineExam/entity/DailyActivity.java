@@ -15,8 +15,10 @@ public class DailyActivity {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "ActId")
-	private int ActId;
+	@Column(name = "Id")
+	private int Id;
+	private Date day;
+	private String testlink;
 
 	public Date getDay() {
 		return day;
@@ -34,20 +36,17 @@ public class DailyActivity {
 		this.testlink = testlink;
 	}
 
-	private Date day;
-	private String testlink;
-
-	public int getActId() {
-		return ActId;
+	public int getId() {
+		return Id;
 	}
 
-	public void setActId(int actId) {
-		ActId = actId;
+	public void setId(int Id) {
+		this.Id = Id;
 	}
 
 	@Override
 	public String toString() {
-		return "DailyActivity [ActId=" + ActId + ", day=" + day + ", testlink=" + testlink + "]";
+		return "DailyActivity [Id=" + Id + ", day=" + day + ", testlink=" + testlink + "]";
 	}
 
 	// collection of task

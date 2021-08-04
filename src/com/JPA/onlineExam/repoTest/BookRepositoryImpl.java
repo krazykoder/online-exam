@@ -1,14 +1,19 @@
 package com.JPA.onlineExam.repoTest;
 
+import javax.inject.Named;
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.PersistenceContextType;
 
+@Named
 public class BookRepositoryImpl implements BookInterface {
 
+	@PersistenceContext(unitName = "JPA_Online_Exam", type = PersistenceContextType.EXTENDED)
 	private EntityManager em;
 
-	public BookRepositoryImpl(EntityManager em) {
-		this.em = em;
-	}
+//	public BookRepositoryImpl(EntityManager em) {
+//		this.em = em;
+//	}
 
 	@Override
 	public Book getBookById(int i) {
@@ -25,11 +30,11 @@ public class BookRepositoryImpl implements BookInterface {
 
 	@Override
 	public Book saveBook(Book b) {
-//		if (b.getId() == null) {
-//			em.persist(b);
-//		} else {
-		b = em.merge(b);
-//		}
+		if (b.getId() == null) {
+			em.persist(b);
+		} else {
+			em.merge(b);
+		}
 
 		return b;
 	}

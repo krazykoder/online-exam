@@ -13,18 +13,18 @@ import javax.persistence.Table;
 public class Score {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "ScoreId")
-	private int ScoreId;
+	@Column(name = "Id")
+	private int Id;
 
 	private int score;
 	private int percentile;
 
-	public int getScoreId() {
-		return ScoreId;
+	public int getId() {
+		return Id;
 	}
 
-	public void setScoreId(int scoreId) {
-		ScoreId = scoreId;
+	public void setId(int Id) {
+		this.Id = Id;
 	}
 
 	public int getScore() {
@@ -45,7 +45,7 @@ public class Score {
 
 	@Override
 	public String toString() {
-		return "Score [ScoreId=" + ScoreId + ", score=" + score + ", percentile=" + percentile + "]";
+		return "Score [Id=" + Id + ", score=" + score + ", percentile=" + percentile + "]";
 	}
 
 }

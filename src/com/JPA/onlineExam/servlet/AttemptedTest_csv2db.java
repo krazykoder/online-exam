@@ -14,8 +14,8 @@ import javax.persistence.Query;
 import org.junit.Test;
 
 import com.JPA.onlineExam.entity.AttemptedTest;
-import com.JPA.onlineExam.entity.TestPaper;
 import com.JPA.onlineExam.entity.Question;
+import com.JPA.onlineExam.entity.TestPaper;
 
 public class AttemptedTest_csv2db {
 
@@ -33,7 +33,7 @@ public class AttemptedTest_csv2db {
 				System.out.println(q.getQuestion() + "        " + q.getChoice_1() + "     " + q.getChoice_2() + "      "
 						+ q.getChoice_3() + "     " + q.getChoice_4());
 			}
-			System.out.println(obj.getTestId() + "   " + obj.getTestName() + "    " + obj.getTestLevel() + "    ");
+			System.out.println(obj.getId() + "   " + obj.getTestName() + "    " + obj.getTestLevel() + "    ");
 
 		}
 
@@ -64,7 +64,7 @@ public class AttemptedTest_csv2db {
 					+ q.getChoice_3() + "     " + q.getChoice_4());
 		}
 		System.out.println(
-				testPaper.getTestId() + "   " + testPaper.getTestName() + "    " + testPaper.getTestLevel() + "    ");
+				testPaper.getId() + "   " + testPaper.getTestName() + "    " + testPaper.getTestLevel() + "    ");
 
 		em.close();
 		emf.close();
@@ -161,7 +161,7 @@ public class AttemptedTest_csv2db {
 
 		for (TestPaper test1 : test) {
 
-			if (test1.getTestId() == 1) {
+			if (test1.getId() == 1) {
 
 				test2.setTest(test1);
 				finalScore = calculateFinalScore(test1);

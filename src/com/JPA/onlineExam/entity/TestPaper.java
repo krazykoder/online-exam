@@ -8,9 +8,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
 import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -19,8 +17,8 @@ public class TestPaper {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "testId")
-	private int testId;
+	@Column(name = "Id")
+	private int Id;
 
 	@Column(name = "testName")
 	private String testName;
@@ -28,28 +26,19 @@ public class TestPaper {
 	@Column(name = "testLevel")
 	private String testLevel;
 
-	@ManyToOne
-	@JoinColumn(name = "topicId")
-	private Topic topic;
+	@ManyToMany
+	private List<Topic> topics;
+
+	public List<Topic> getTopics() {
+		return topics;
+	}
+
+	public void setTopics(List<Topic> topics) {
+		this.topics = topics;
+	}
 
 	@ManyToMany(cascade = CascadeType.ALL)
 	private List<Question> questionSet;
-
-//	@OneToMany(cascade = CascadeType.ALL)
-//	@JoinColumn(name = "testId")
-//	private List<AttemptedTest> testAttempt;
-
-////	public void addQuestion(Question question) {
-////		questionSet.add(question);
-////	}
-
-//	public List<AttemptedTest> getTestAttempt() {
-//		return testAttempt;
-//	}
-//
-//	public void setTestAttempt(List<AttemptedTest> testAttempt) {
-//		this.testAttempt = testAttempt;
-//	}
 
 	public List<Question> getQuestionSet() {
 		return questionSet;
@@ -59,12 +48,12 @@ public class TestPaper {
 		this.questionSet = questionSet;
 	}
 
-	public int getTestId() {
-		return testId;
+	public int getId() {
+		return Id;
 	}
 
-	public void setTestId(int testId) {
-		this.testId = testId;
+	public void setId(int Id) {
+		this.Id = Id;
 	}
 
 	public String getTestName() {
@@ -85,7 +74,7 @@ public class TestPaper {
 
 	@Override
 	public String toString() {
-		return "MyTest [testId=" + testId + ", testName=" + testName + ", testLevel=" + testLevel + ", questionSet="
+		return "MyTest [Id=" + Id + ", testName=" + testName + ", testLevel=" + testLevel + ", questionSet="
 				+ questionSet + "]";
 	}
 

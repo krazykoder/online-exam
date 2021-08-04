@@ -19,8 +19,8 @@ public class User {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "user_id")
-	private int user_id;
+	@Column(name = "Id")
+	private int Id;
 
 	@Column(name = "userName")
 	private String userName;
@@ -29,10 +29,10 @@ public class User {
 	private String password;
 
 	@ManyToMany
-	private List<TestPaper> TestPaperSet;
+	private List<TestPaper> TestPaperList;
 
 	@OneToMany
-	private List<AttemptedTest> atemptTestSet;
+	private List<AttemptedTest> attemptTestPaperList;
 
 	// allows nullable
 	@Nullable
@@ -43,22 +43,14 @@ public class User {
 	private List<DailyActivity> activity;
 
 	@OneToMany
-	private List<TopicWiseScore> scoreTopic;
-
-	public List<TestPaper> getTestPaperSet() {
-		return TestPaperSet;
-	}
-
-	public void setTestPaperSet(List<TestPaper> testPaperSet) {
-		TestPaperSet = testPaperSet;
-	}
+	private List<TopicWiseScore> TopicWiseScoreList;
 
 	public List<TopicWiseScore> getScoreTopic() {
-		return scoreTopic;
+		return TopicWiseScoreList;
 	}
 
-	public void setScoreTopic(List<TopicWiseScore> scoreTopic) {
-		this.scoreTopic = scoreTopic;
+	public void setScoreTopic(List<TopicWiseScore> TopicWiseScoreList) {
+		this.TopicWiseScoreList = TopicWiseScoreList;
 	}
 
 	public List<DailyActivity> getActivity() {
@@ -69,12 +61,12 @@ public class User {
 		this.activity = activity;
 	}
 
-	public int getUser_id() {
-		return user_id;
+	public int getId() {
+		return Id;
 	}
 
-	public void setUser_id(int user_id) {
-		this.user_id = user_id;
+	public void setId(int Id) {
+		this.Id = Id;
 	}
 
 	public String getUserName() {
@@ -93,12 +85,12 @@ public class User {
 		this.password = password;
 	}
 
-	public List<AttemptedTest> getAtemptTestSet() {
-		return atemptTestSet;
+	public List<AttemptedTest> getattemptTestPaperList() {
+		return attemptTestPaperList;
 	}
 
-	public void setAtemptTestSet(List<AttemptedTest> atemptTestSet) {
-		this.atemptTestSet = atemptTestSet;
+	public void setattemptTestPaperList(List<AttemptedTest> attemptTestPaperList) {
+		this.attemptTestPaperList = attemptTestPaperList;
 	}
 
 	public List<User> getFriends() {
@@ -109,19 +101,19 @@ public class User {
 		this.friends = friends;
 	}
 
-	public List<TestPaper> getUnattemptTestSet() {
-		return TestPaperSet;
+	public List<TestPaper> getTestPaperList() {
+		return TestPaperList;
 	}
 
-	public void setUnattemptTestSet(List<TestPaper> unattemptTestSet) {
-		TestPaperSet = unattemptTestSet;
+	public void setTestPaperList(List<TestPaper> TestPaperList) {
+		this.TestPaperList = TestPaperList;
 	}
 
-//	@Override
-//	public String toString() {
-//		return "User [user_id=" + user_id + ", userName=" + userName + ", password=" + password + ", TestPaperSet="
-//				+ TestPaperSet + ", atemptTestSet=" + atemptTestSet + ", friends=" + friends + ", activity=" + activity
-//				+ ", topicsScoreSet=" + topicsScoreSet + "]";
-//	}
+	@Override
+	public String toString() {
+		return "User [user_id=" + Id + ", userName=" + userName + ", password=" + password + ", TestPaperList="
+				+ TestPaperList + ", attemptTestPaperList=" + attemptTestPaperList + ", friends=" + friends
+				+ ", activity=" + activity + ", TopicWiseScoreList=" + TopicWiseScoreList + "]";
+	}
 
 }
