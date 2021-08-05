@@ -1,12 +1,12 @@
 package com.JPA.onlineExam.repoTest;
 
-import javax.ejb.Stateful;
+import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.transaction.Transactional;
 
 import org.junit.Test;
 
-@Stateful
+@Stateless
 public class BookRun {
 
 	@Inject
