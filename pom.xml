@@ -5,13 +5,12 @@
 	<groupId>online_exam_spring</groupId>
 	<artifactId>online_exam_spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<packaging>war</packaging>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring.version>5.1.4.RELEASE</spring.version>
-		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.target>11</maven.compiler.target>
 		<slf4j.version>1.7.5</slf4j.version>
 	</properties>
 
