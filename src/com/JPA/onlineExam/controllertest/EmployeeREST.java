@@ -1,4 +1,4 @@
-package com.JPA.onlineExam.controller;
+package com.JPA.onlineExam.controllertest;
 
 import java.util.List;
 
