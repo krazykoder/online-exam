@@ -17,7 +17,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import com.JPA.onlineExam.modeltest.Customer;
-import com.JPA.onlineExam.repositorytest.CustomerRepository;
+import com.JPA.onlineExam.repository.CustomerRepository;
 import com.opencsv.bean.CsvToBeanBuilder;
 
 @Service

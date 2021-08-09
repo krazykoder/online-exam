@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.JPA.onlineExam.modeltest.Employee;
-import com.JPA.onlineExam.repositorytest.EmployeeRepository;
+import com.JPA.onlineExam.repository.EmployeeRepository;
 
 @RestController
 @RequestMapping(value = "/employees", produces = { MediaType.APPLICATION_JSON_VALUE })

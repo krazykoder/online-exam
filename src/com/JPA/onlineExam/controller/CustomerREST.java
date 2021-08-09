@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.JPA.onlineExam.modeltest.Customer;
 import com.JPA.onlineExam.repoTest.FromCSVtoDB;
-import com.JPA.onlineExam.repositorytest.CustomerRepository;
+import com.JPA.onlineExam.repository.CustomerRepository;
 
 @RestController
 @RequestMapping(value = "/customers", produces = { MediaType.APPLICATION_JSON_VALUE })
