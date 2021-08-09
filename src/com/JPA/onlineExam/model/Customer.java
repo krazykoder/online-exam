@@ -11,11 +11,22 @@ import javax.persistence.Table;
 public class Customer {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	long ID;
+
 	int customerNumber;
 	String customerName, contactLastName, contactFirstName, phone, addressLine1, addressLine2, city, state, postalCode,
 			country;
 	String salesRepEmployeeNumber;
+
 	float creditLimit;
+
+	public long getID() {
+		return ID;
+	}
+
+	public void setID(long iD) {
+		ID = iD;
+	}
 
 	public int getCustomerNumber() {
 		return customerNumber;
