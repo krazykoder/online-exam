@@ -16,7 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
-import com.JPA.onlineExam.model.Customer;
+import com.JPA.onlineExam.modeltest.Customer;
 import com.JPA.onlineExam.repository.CustomerRepository;
 import com.opencsv.bean.CsvToBeanBuilder;
 

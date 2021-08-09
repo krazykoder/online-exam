@@ -1,4 +1,4 @@
-package com.JPA.onlineExam.model;
+package com.JPA.onlineExam.modeltest;
 
 import java.io.Serializable;
 

@@ -5,7 +5,7 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 
-import com.JPA.onlineExam.model.Book;
+import com.JPA.onlineExam.modeltest.Book;
 
 public class BookRepositoryImpl {
 

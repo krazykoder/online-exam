@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.JPA.onlineExam.model.Customer;
+import com.JPA.onlineExam.modeltest.Customer;
 import com.JPA.onlineExam.repoTest.FromCSVtoDB;
 import com.JPA.onlineExam.repository.CustomerRepository;
 
