@@ -1,4 +1,4 @@
-package com.JPA.onlineExam.repository;
+package com.JPA.onlineExam.repositorytest;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

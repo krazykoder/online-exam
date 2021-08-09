@@ -1,4 +1,4 @@
-package com.JPA.onlineExam.repository;
+package com.JPA.onlineExam.repoTest;
 
 import java.util.List;
 
@@ -19,6 +19,7 @@ public class BookRepositoryImpl {
 		return em.find(Book.class, i);
 	}
 
+	@SuppressWarnings("unchecked")
 	public List<Book> getBookByTitle(String title) {
 //		TypedQuery<Book> q = em.createQuery("SELECT bookName FROM Book  WHERE bookName = :title", Book.class);
 //		q.setParameter("title", title);

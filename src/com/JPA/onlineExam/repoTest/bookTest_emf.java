@@ -7,7 +7,6 @@ import javax.persistence.Persistence;
 import org.junit.Test;
 
 import com.JPA.onlineExam.modeltest.Book;
-import com.JPA.onlineExam.repository.BookRepositoryImpl;
 
 public class bookTest_emf {
 

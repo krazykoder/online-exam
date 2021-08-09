@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.JPA.onlineExam.modeltest.Book;
-import com.JPA.onlineExam.repository.BookRepository;
+import com.JPA.onlineExam.repositorytest.BookRepository;
 
 @Service("BookService")
 public class BookService {
