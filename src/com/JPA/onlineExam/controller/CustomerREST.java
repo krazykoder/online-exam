@@ -31,9 +31,10 @@ public class CustomerREST {
 		this.repository = repository;
 	}
 
-	@GetMapping(value = "/ping", produces = { MediaType.TEXT_PLAIN_VALUE })
+	@GetMapping(value = "/ping", produces = { MediaType.ALL_VALUE })
 	public String allemp() {
-		return "Hello World";
+		return "Hello World<br>API" + "<br><a href='/online_exam_spring/api/rest/customers/customers'>All customers</a>"
+				+ "<br><a href='/online_exam_spring/api/rest/customers/test'>Populate All customers</a>";
 	}
 
 	@GetMapping(value = "/test", produces = { MediaType.ALL_VALUE })
@@ -45,7 +46,8 @@ public class CustomerREST {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return "Populating Customer from World<br>";
+		return "Populating Customer from World<br>"
+				+ "<a href='/online_exam_spring/api/rest/customers/customers'>All customers</a>";
 	}
 
 	@GetMapping(value = "/customers")
