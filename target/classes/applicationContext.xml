@@ -25,8 +25,7 @@
 	<bean
 		class="org.springframework.jdbc.datasource.SimpleDriverDataSource"
 		id="dataSource">
-		<property name="driverClass"
-			value="${jdbc.driverClassName}" />
+		<property name="driverClass" value="${jdbc.driverClassName}" />
 		<property name="url" value="${jdbc.url}" />
 		<property name="username" value="${jdbc.username}" />
 		<property name="password" value="${jdbc.password}" />
@@ -36,12 +35,12 @@
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
 		<property name="persistenceUnitName" value="JPA_Online_Exam" />
 		<property name="dataSource" ref="dataSource" />
-		
 	</bean>
 
 	<jpa:repositories
-		base-package="com.JPA.onlineExam.repository" entity-manager-factory-ref="emf">
-		
+		base-package="com.JPA.onlineExam.repository"
+		entity-manager-factory-ref="emf">
+
 	</jpa:repositories>
 
 	<tx:annotation-driven
