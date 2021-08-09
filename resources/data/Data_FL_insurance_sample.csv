@@ -1,0 +1,415 @@
+policyID,units,Client_FirstName,Client_LastName,Client_Email,Years_residing,statecode,county,eq_site_limit,hu_site_limit,fl_site_limit,tiv_2012,point_latitude,point_longitude,line,construction,Sale_type
+119736,60,Lillia,Kunz,arpjana@gmail.com,15,FL,CLAY COUNTY,498960,498960,498960,792148.9,30.102261,-81.711777,Residential,Masonry,1
+448094,88,Roger,Snover,alokesh1@yahoo.co.in,7,FL,CLAY COUNTY,1322376.3,1322376.3,1322376.3,1438163.57,30.063936,-81.707664,Residential,Masonry,3
+206893,55,Shasta,Bertucci,cacharya1984@gmail.com,6,FL,CLAY COUNTY,190724.4,190724.4,190724.4,192476.78,30.089579,-81.700455,Residential,Wood,1
+333743,92,Lane,Minnix,akjana_kgp@yahoo.co.in,16,FL,CLAY COUNTY,0,79520.76,0,86854.48,30.063236,-81.707703,Residential,Wood,3
+172534,71,Nakia,Sarmiento,alokesh.samui@gmail.com,19,FL,CLAY COUNTY,0,254281.5,0,246144.49,30.060614,-81.702675,Residential,Wood,1
+785275,73,Claribel,Otterson,007deekay@gmail.com,10,FL,CLAY COUNTY,0,515035.62,0,884419.17,30.063236,-81.707703,Residential,Masonry,3
+995932,61,Tammara,Bruni,arupratan007@gmail.com,19,FL,CLAY COUNTY,0,19260000,0,20610000,30.102226,-81.713882,Commercial,Reinforced Concrete,1
+223488,11,Williams,Morehead,ananya.bt.hit@gmail.com,7,FL,CLAY COUNTY,328500,328500,328500,348374.25,30.102217,-81.707146,Residential,Wood,1
+433512,61,Rosy,Bath,samanta.iit@gmail.com,24,FL,CLAY COUNTY,315000,315000,315000,265821.57,30.118774,-81.704613,Residential,Wood,2
+142071,1,Isabella,Wragg,chanchal_che1985@yahoo.co.in,15,FL,CLAY COUNTY,705600,705600,705600,1010842.56,30.100628,-81.703751,Residential,Masonry,2
+253816,63,Keely,Garcia,banerjeeaparajita21@gmail.com,2,FL,CLAY COUNTY,831498.3,831498.3,831498.3,1117791.48,30.10216,-81.719444,Residential,Masonry,2
+894922,34,Michale,Conner,skbappa13@yahoo.co.in,7,FL,CLAY COUNTY,0,24059.09,0,33952.19,30.095957,-81.695099,Residential,Wood,2
+422834,81,Scarlett,Sereno,binoy6816@gmail.com,22,FL,CLAY COUNTY,0,48115.94,0,66755.39,30.100073,-81.739822,Residential,Wood,1
+582721,64,Valencia,Span,mousumi500@gmail.com,22,FL,CLAY COUNTY,0,28869.12,0,42826.99,30.09248,-81.725167,Residential,Wood,1
+842700,61,Tamekia,Than,rajibbatabyal@gmail.com,23,FL,CLAY COUNTY,0,56135.64,0,50656.8,30.101356,-81.726248,Residential,Wood,1
+874333,14,Lenna,Bleich,burropcy@iitr.ernet.in,1,FL,CLAY COUNTY,0,48115.94,0,67905.07,30.113743,-81.727463,Residential,Wood,1
+580146,71,Edgardo,Coles,balaram.besu@gmail.com,5,FL,CLAY COUNTY,0,48115.94,0,66938.9,30.121655,-81.732391,Residential,Wood,3
+456149,25,Raye,Voisin,knock2chinmoy@gmail.com,23,FL,CLAY COUNTY,0,80192.49,0,86421.04,30.109537,-81.741661,Residential,Wood,1
+767862,26,Giselle,Kerstetter,chem2007dip@gmail.com,11,FL,CLAY COUNTY,0,48115.94,0,73798.5,30.11824,-81.745335,Residential,Wood,3
+353022,66,Vesta,Rosalez,wb.chandan@gmail.com,16,FL,CLAY COUNTY,0,60946.79,0,62467.29,30.065799,-81.717416,Residential,Wood,1
+367814,27,Mercedez,Mathieu,chanchal_vu2007@yahoo.co.in,11,FL,CLAY COUNTY,0,28869.12,0,42727.74,30.082993,-81.710581,Residential,Wood,1
+671392,49,Bernardine,Gumbs,chinmoy.gautamiitrster@gmail.com,23,FL,CLAY COUNTY,0,13410000,0,11700000,30.091921,-81.711929,Commercial,Reinforced Concrete,3
+772887,53,Chelsie,Blevins,chemkanchan@gmail.com,23,FL,CLAY COUNTY,0,1669113.93,0,2099127.76,30.117352,-81.711884,Residential,Masonry,1
+983122,9,Melodi,Alicea,lavi3chem@gmail.com,13,FL,CLAY COUNTY,0,179562.23,0,211372.57,30.095783,-81.713181,Residential,Wood,3
+934215,15,Linn,Carew,shreyam007@gmail.com,4,FL,CLAY COUNTY,0,177744.16,0,157171.16,30.110518,-81.727478,Residential,Wood,1
+385951,42,Madalyn,Osmond,chakrabortydebarshi@gmail.com,14,FL,CLAY COUNTY,0,17757.58,0,16948.72,30.10288,-81.705719,Residential,Wood,1
+716332,26,Roland,Sandler,vidyarajeesh@gmail.com,15,FL,CLAY COUNTY,0,130129.87,0,101758.43,30.068468,-81.71624,Residential,Wood,1
+751262,60,Wiley,Studstill,guchhait.biswajit@gmail.com,16,FL,CLAY COUNTY,0,42854.77,0,63592.88,30.068468,-81.71624,Residential,Wood,2
+633663,2,Carey,Husted,ghosh.sourov@gmail.com,5,FL,CLAY COUNTY,0,785.58,0,662.18,30.068468,-81.71624,Residential,Wood,1
+105851,75,Heike,Primavera,goutamcdri@gmail.com,6,FL,CLAY COUNTY,0,170361.91,0,177176.38,30.068468,-81.71624,Residential,Wood,1
+710400,99,Asia,Alcantara,kousuri@gmail.com,11,FL,CLAY COUNTY,0,1430.89,0,1861.41,30.068468,-81.71624,Residential,Wood,1
+703001,72,Echo,Hooten,sanjib1giri@gmail.com,14,FL,CLAY COUNTY,0,129913.27,0,101692.86,30.079785,-81.706865,Residential,Wood,4
+352792,94,Fausto,Webre,guchhaittapas07@gmail.com,10,FL,CLAY COUNTY,0,366285.62,0,507164.19,30.08012,-81.718452,Residential,Masonry,1
+717603,79,Zola,Voshell,tushar.iacs@gmail.com,18,FL,CLAY COUNTY,0,22512.61,0,28637.17,30.08012,-81.718452,Residential,Wood,1
+937659,90,Ladonna,Worthley,prasenjitghosh322@gmail.com,8,FL,SUWANNEE COUNTY,0,9246.6,0,10880.22,29.959805,-82.926659,Residential,Wood,3
+294022,98,Latarsha,Ballance,susanta.ghanta82@gmail.com,16,FL,SUWANNEE COUNTY,0,96164.64,0,69357.78,29.959805,-82.926659,Residential,Wood,5
+410500,73,Shelton,Reimers,singhasubhankar@gmail.com,6,FL,SUWANNEE COUNTY,0,11095.92,0,12737.89,29.959805,-82.926659,Residential,Wood,5
+524433,33,Barrie,Burkitt,bhuniasukanya@gmail.com,19,FL,SUWANNEE COUNTY,218475,218475,218475,199030.29,29.962601,-82.926155,Residential,Wood,3
+779298,76,Herta,Rivet,h.susanta@gmail.com,19,FL,SUWANNEE COUNTY,1400904,1400904,1400904,1772984.1,29.962601,-82.926155,Residential,Masonry,3
+491831,91,Maryalice,Lahman,karun.jana@gmail.com,3,FL,SUWANNEE COUNTY,4365,4365,4365,4438.05,29.962601,-82.926155,Residential,Wood,3
+814637,21,Darleen,Guillermo,poulamijana123@gmail.com,1,FL,SUWANNEE COUNTY,4365,4365,4365,6095.72,29.962601,-82.926155,Residential,Wood,3
+737515,26,Layla,Biello,mrityunjoykar@gmail.com,24,FL,SUWANNEE COUNTY,39789,39789,39789,58106.58,29.962601,-82.926155,Residential,Wood,3
+222653,19,Robin,Orum,kalyanasis_sahu@yahoo.co.in,20,FL,SUWANNEE COUNTY,24867,24867,24867,18969.79,29.962601,-82.926155,Residential,Wood,3
+788543,1,Fae,Seiden,kharadinesh@gmail.com,8,FL,SUWANNEE COUNTY,213876,213876,213876,261435.18,29.962601,-82.926155,Residential,Wood,3
+691681,78,Georgianna,Grieco,koushik.ghosh@hdfcbank.com,20,FL,SUWANNEE COUNTY,69435,69435,69435,93674.34,29.960735,-82.92542,Residential,Wood,3
+368807,37,Fern,Cray,md.ikbal.chem@gmail.com,12,FL,SUWANNEE COUNTY,14922,14922,14922,12333.03,29.960735,-82.92542,Residential,Wood,3
+174002,22,Dirk,Wedel,nandan.iitkgp@gmail.com,22,FL,SUWANNEE COUNTY,165546,165546,165546,239134.51,29.963396,-82.916763,Residential,Wood,1
+198760,92,Antonina,Litchford,nimaibar635@gmail.com,18,FL,SUWANNEE COUNTY,72837,72837,72837,86637.86,29.963396,-82.916763,Residential,Wood,1
+831395,18,Janina,Eberhard,sachin.ripu@gmail.com,2,FL,SUWANNEE COUNTY,72837,72837,72837,98147.86,29.963396,-82.916763,Residential,Wood,1
+305698,23,Noella,Mceachern,rpoulami@gmail.com,17,FL,SUWANNEE COUNTY,19440,19440,19440,30658.59,29.963396,-82.916763,Residential,Wood,1
+515722,36,Collette,Akiyama,pijus@ipc.iisc.ernet.in,2,FL,SUWANNEE COUNTY,9945,9945,9945,11551.12,29.963396,-82.916763,Residential,Wood,1
+415582,93,Ulrike,Navin,rsumita4@yahoo.co.in,11,FL,SUWANNEE COUNTY,0,255878.61,0,345894.66,29.958415,-82.92394,Residential,Wood,3
+783533,40,Dale,Byington,rashmiroy04@gmail.com,15,FL,SUWANNEE COUNTY,0,153527.17,0,138228.8,29.9696,-82.92767,Residential,Wood,4
+640802,35,Selena,Durkee,rabinpanja@gmail.com,21,FL,SUWANNEE COUNTY,0,255878.61,0,177339.74,29.959404,-82.927582,Residential,Wood,1
+403866,46,Tama,Stearns,rajeevy15@gmail.com,23,FL,SUWANNEE COUNTY,0,102351.45,0,95132.8,29.958904,-82.922729,Residential,Wood,3
+828788,20,Adella,Noblin,shantanuchem@gmail.com,18,FL,SUWANNEE COUNTY,0,155489.66,0,145139.65,29.95822,-82.922424,Residential,Wood,1
+751490,25,Don,Osmond,supratik.chem@gmail.com,16,FL,SUWANNEE COUNTY,0,137233.8,0,114919.58,29.965832,-82.933777,Residential,Wood,4
+972562,63,Tamra,Feltmann,ki.online.naki@gmail.com,25,FL,SUWANNEE COUNTY,0,123596.05,0,183015.09,29.965721,-82.933777,Residential,Wood,4
+367541,59,Rodger,Selke,amiyaiitb@gmail.com,13,FL,SUWANNEE COUNTY,0,107111.11,0,88218.85,29.965717,-82.933777,Residential,Wood,4
+481360,82,Faustino,Filippini,amrit.cq@gmail.com,8,FL,SUWANNEE COUNTY,0,96309.32,0,85911,29.95775,-82.923635,Residential,Wood,3
+920232,56,Retta,Heady,achintya2007@gmail.com,8,FL,NASSAU COUNTY,0,104031.7,0,168443.97,30.39431,-81.93397,Residential,Wood,1
+727659,59,Dierdre,Forrest,aakriti.shah@empyrean-partners.com,16,FL,NASSAU COUNTY,338944.5,338944.5,338944.5,485816.61,30.56267,-81.830429,Residential,Wood,1
+471817,14,Treasa,Guel,ari.adak@gmail.com,25,FL,NASSAU COUNTY,272349,272349,272349,414565.56,30.56267,-81.830429,Residential,Wood,1
+983043,55,Nickole,Rothman,avi.iitb@gmail.com,1,FL,NASSAU COUNTY,129690,129690,129690,129635.53,30.561651,-81.830193,Residential,Wood,1
+578286,15,Archie,Stoddart,abdulla.sarder@barclays.com,22,FL,NASSAU COUNTY,123210,123210,123210,120345.61,30.56267,-81.830429,Residential,Wood,1
+347276,1,William,Constant,bbmanna.125@gmail.com,2,FL,NASSAU COUNTY,0,3698.64,0,3939.13,30.56106,-81.82632,Residential,Wood,3
+477786,47,Boyd,Marable,bindasnavneet@gmail.com,20,FL,NASSAU COUNTY,2115760.5,2115760.5,0,3057739.39,30.5579,-81.8249,Commercial,Reinforced Masonry,4
+265907,28,Nikia,Quiroz,bbidesh@gmail.com,23,FL,NASSAU COUNTY,0,93548.58,0,118401.07,30.56106,-81.82632,Residential,Wood,3
+107560,48,Otelia,Salmons,vijitmishra@gmail.com,25,FL,NASSAU COUNTY,0,1037311.14,0,1487255.23,30.56106,-81.82632,Residential,Masonry,3
+908183,23,Ludivina,Stringfellow,bibekanandamaji@gmail.com,20,FL,NASSAU COUNTY,0,15463.3,0,11825.56,30.57185,-81.82383,Residential,Wood,3
+356024,95,Lenore,Still,dhananjoy.mondal@wipro.com,11,FL,NASSAU COUNTY,0,13893.35,0,13988.5,30.562835,-81.826525,Residential,Wood,3
+575299,2,Latesha,Gelb,ep.amandeepkaur@gmail.com,1,FL,NASSAU COUNTY,0,316618.23,0,230328.99,30.567566,-81.826584,Residential,Wood,1
+790478,90,Ariana,Hiler,padma.resourcesolutions@gmail.com,21,FL,NASSAU COUNTY,0,54834.66,0,63053.72,30.60895,-81.83645,Residential,Wood,3
+801776,98,Modesta,Sarkisian,sdg85in@gmail.com,1,FL,NASSAU COUNTY,0,295269.11,0,488965.65,30.59925,-81.81973,Residential,Wood,1
+291781,29,Madalyn,Midkiff,debabrataiitb@gmail.com,6,FL,NASSAU COUNTY,0,723734.17,0,955908.09,30.53674,-81.77496,Residential,Masonry,3
+537286,45,Tamika,Lupercio,mitduttaonline@gmail.com,12,FL,NASSAU COUNTY,0,1741572,0,1455184.42,30.555161,-81.825684,Residential,Masonry,1
+289305,70,Rena,Anzalone,anirbhai@gmail.com,24,FL,COLUMBIA COUNTY,135450,135450,135450,164978.1,30.105968,-82.66227,Residential,Wood,4
+697409,28,Bambi,Poling,ashis24@gmail.com,20,FL,COLUMBIA COUNTY,60300,60300,60300,77678.46,30.1018,-82.7094,Residential,Wood,1
+633944,73,Carlota,Borelli,souravsinghroy9@gmail.com,9,FL,COLUMBIA COUNTY,22500,22500,22500,19501.76,30.1018,-82.7094,Residential,Wood,4
+963511,49,Thaddeus,Hon,amit.sinha@cognizant.com,16,FL,COLUMBIA COUNTY,0,34212.42,0,33250.37,30.1018,-82.7094,Residential,Wood,4
+729649,17,Milo,Zylstra,bhatt.asit@gmail.com,22,FL,COLUMBIA COUNTY,0,460128.2,0,626142.46,30.1653,-82.73404,Residential,Masonry,1
+862584,41,Marinda,Sawyers,amitkumarsha@gmail.com,3,FL,COLUMBIA COUNTY,0,32169.69,0,37291.11,30.1018,-82.7094,Residential,Wood,4
+371891,32,Shasta,Moorehead,amlandatt@gmail.com,21,FL,COLUMBIA COUNTY,0,50550.75,0,49526.38,30.17399,-82.57017,Residential,Wood,4
+785595,1,Robena,Bruneau,anik84@gmail.com,3,FL,COLUMBIA COUNTY,42300,42300,42300,53762.62,30.1515,-82.6126,Residential,Wood,3
+567696,93,Dane,Zirkle,asim.ranjan@gmail.com,6,FL,COLUMBIA COUNTY,0,10171.26,0,16798.29,30.16269,-82.64,Residential,Wood,4
+219025,31,Myrna,Heitz,itsme.avijit@gmail.com,18,FL,COLUMBIA COUNTY,0,155342.88,0,176189.89,30.16269,-82.64,Residential,Wood,4
+447216,31,Thalia,Kohn,mukherji.ayan@gmail.com,5,FL,COLUMBIA COUNTY,0,3698.64,0,4424.48,30.16269,-82.64,Residential,Wood,4
+305141,57,Delmar,Mashburn,binod.cts@gmail.com,19,FL,COLUMBIA COUNTY,0,4623.3,0,4525.86,30.16269,-82.64,Residential,Wood,4
+625575,31,Tyra,Yong,dhiman.roy@gmail.com,16,FL,COLUMBIA COUNTY,0,33287.76,0,27375.62,30.16269,-82.64,Residential,Wood,4
+262109,9,Sherri,Wicks,attili.phani@gmail.com,21,FL,COLUMBIA COUNTY,0,21267.18,0,24840.49,30.163641,-82.640976,Residential,Wood,1
+228457,88,Irena,Kempf,kiranbala22@gmail.com,4,FL,COLUMBIA COUNTY,0,729556.74,0,889825.76,30.163641,-82.640976,Residential,Masonry,1
+622799,1,Elida,Vidrio,bknarnoli@gmail.com,21,FL,COLUMBIA COUNTY,0,350446.14,0,438049.26,30.163641,-82.640976,Residential,Wood,1
+233271,58,Herminia,Bowser,shashisoni7@gmail.com,5,FL,COLUMBIA COUNTY,0,2135964.6,0,1728721.59,30.163641,-82.640976,Commercial,Reinforced Masonry,1
+932950,41,Ping,Hajek,brain.indian@gmail.com,8,FL,COLUMBIA COUNTY,0,4623.3,0,4782.1,30.163641,-82.640976,Residential,Wood,1
+641952,21,Damien,Hambleton,knockriju@gmail.com,18,FL,COLUMBIA COUNTY,0,2469639.6,0,2708463.63,30.1515,-82.6126,Commercial,Reinforced Masonry,4
+796260,85,Anton,Hiatt,bhavya1221@gmail.com,18,FL,COLUMBIA COUNTY,0,914073.3,0,1296439.3,30.1515,-82.6126,Residential,Masonry,4
+301822,48,Lorinda,Bader,binod_bits@yahoo.co.uk,14,FL,COLUMBIA COUNTY,0,3042940.5,0,3181868.99,30.1515,-82.6126,Commercial,Reinforced Masonry,4
+559927,5,Tresa,Marcucci,bishnu.kumar@cognizant.com,5,FL,COLUMBIA COUNTY,0,234997.65,0,255975.89,30.1515,-82.6126,Residential,Wood,4
+224400,3,Carmella,Burnley,kishore.bksc@gmail.com,3,FL,COLUMBIA COUNTY,0,912600,0,1147247.71,30.1515,-82.6126,Residential,Masonry,4
+123936,21,Brett,Bastin,rajesh.vit05@gmail.com,6,FL,COLUMBIA COUNTY,0,1920744.9,0,2837762.3,30.1515,-82.6126,Commercial,Reinforced Masonry,4
+333818,66,Tierra,Bellows,chiradipm@gmail.com,23,FL,COLUMBIA COUNTY,0,455754.6,0,696809.59,30.1515,-82.6126,Residential,Masonry,4
+254323,17,Mickey,Farrell,gaurav.chitransh@gmail.com,24,FL,COLUMBIA COUNTY,0,1552693.95,0,1552594.58,30.1515,-82.6126,Residential,Masonry,4
+247444,3,Svetlana,Gorman,nayananjan.chakraborty@gmail.com,3,FL,COLUMBIA COUNTY,0,8910,0,13521.83,30.1515,-82.6126,Residential,Wood,4
+882598,48,Anibal,Weishaupt,chatterjeesatyabrata@gmail.com,3,FL,COLUMBIA COUNTY,0,398968.2,0,424087.24,30.1515,-82.6126,Residential,Masonry,4
+386918,8,Esperanza,Laws,Suvajit.Mukhopadhyay@cognizant.com,5,FL,COLUMBIA COUNTY,0,4500,0,4238.41,30.1515,-82.6126,Residential,Wood,4
+497337,91,Estelle,Albritton,4uallforever.raju@gmail.com,21,FL,COLUMBIA COUNTY,0,31071.6,0,57802.5,30.1515,-82.6126,Residential,Wood,4
+526844,18,Julene,Gin,crazyzone_kiran@yahoo.com,4,FL,COLUMBIA COUNTY,0,4956125.85,0,7279557.65,30.1515,-82.6126,Commercial,Reinforced Masonry,4
+623400,8,Nenita,Moldenhauer,starpepu@gmail.com,11,FL,COLUMBIA COUNTY,0,40500,0,34160.94,30.1515,-82.6126,Residential,Wood,4
+826170,100,Caprice,Peake,subhro.25@gmail.com,25,FL,COLUMBIA COUNTY,0,135868.99,0,234280.26,30.185885,-82.614795,Residential,Wood,1
+185483,7,Jeniffer,Leos,vijetadas@gmail.com,24,FL,COLUMBIA COUNTY,0,36784.23,0,58447.64,30.185885,-82.614795,Residential,Wood,1
+920003,12,Lindsy,Rayford,debabrato.sengupta@gmail.com,15,FL,COLUMBIA COUNTY,0,1086940.9,0,1770235.43,30.185885,-82.614795,Residential,Masonry,1
+274246,81,Meghann,Steckler,debabrato_s@rediffmail.com,22,FL,COLUMBIA COUNTY,0,16767.17,0,17228.6,30.16649,-82.63503,Residential,Wood,1
+423636,11,Harmony,Walke,yash.ims@gmail.com,19,FL,COLUMBIA COUNTY,0,1404900,0,1840643.78,30.176,-82.65581,Residential,Masonry,1
+970906,41,Earlean,Horvath,dinkar_jha@yahoo.co.uk,21,FL,COLUMBIA COUNTY,0,4696520.5,0,6342697.9,30.00777,-82.59694,Commercial,Reinforced Masonry,3
+227898,28,Nicole,Ciesielski,sunilkumar167@gmail.com,10,FL,COLUMBIA COUNTY,0,67892.48,0,86628.09,30.17509,-82.66252,Residential,Wood,1
+525138,50,Hee,Chapa,saket171983@gmail.com,19,FL,COLUMBIA COUNTY,0,86056.32,0,125938.17,30.17501,-82.66205,Residential,Wood,1
+923627,59,Norah,Sedor,mukesh56in@gmail.com,16,FL,COLUMBIA COUNTY,0,67892.48,0,64169.8,30.174776,-82.662277,Residential,Wood,1
+619743,2,Jeannetta,Lowman,bhusi008@gmail.com,6,FL,COLUMBIA COUNTY,0,67892.48,0,80898.23,30.17476,-82.66251,Residential,Wood,1
+910727,84,Cindie,Shryock,gaurav.prasad1@gmail.com,18,FL,COLUMBIA COUNTY,0,86056.32,0,91244.65,30.1745,-82.66205,Residential,Wood,1
+363647,16,Cris,Jourdan,gaurav6152@gmail.com,18,FL,COLUMBIA COUNTY,0,67892.48,0,92333.77,30.17447,-82.66251,Residential,Wood,1
+512519,5,Rubie,Caffee,somnathgh04@gmail.com,15,FL,COLUMBIA COUNTY,0,101009.36,0,98181.1,30.17417,-82.66218,Residential,Wood,1
+904304,10,Ta,Dannenberg,getandy131@gmail.com,22,FL,COLUMBIA COUNTY,0,67892.48,0,66272.56,30.17451,-82.66351,Residential,Wood,1
+835349,53,Mendy,Vanek,suresh055@gmail.com,6,FL,COLUMBIA COUNTY,0,67892.48,0,99945.87,30.17475,-82.66314,Residential,Wood,1
+891725,55,Isreal,Bartling,ssfganesh@gmail.com,20,FL,COLUMBIA COUNTY,0,86056.32,0,139415.11,30.17514,-82.66341,Residential,Wood,1
+923503,76,Alberto,Marasco,gulsherahmad@gmail.com,6,FL,COLUMBIA COUNTY,0,86056.32,0,106664.4,30.17474,-82.66348,Residential,Wood,1
+292347,85,Trudie,Baber,abhijeetwork@gmail.com,13,FL,COLUMBIA COUNTY,0,132603.34,0,115117.07,30.17664,-82.66314,Residential,Wood,3
+363828,38,Angelina,Beckerman,iampraveenkumar@gmail.com,21,FL,COLUMBIA COUNTY,0,132603.34,0,216561.94,30.17638,-82.66314,Residential,Wood,3
+110490,36,Ladonna,Halle,harminder23@gmail.com,2,FL,COLUMBIA COUNTY,0,91764.15,0,70364.02,30.17623,-82.66406,Residential,Wood,3
+480733,59,Marylin,Solari,krharikiran@gmail.com,25,FL,COLUMBIA COUNTY,0,457854.5,0,345588.57,30.17698,-82.67019,Residential,Masonry,4
+993346,14,Daniel,Kovach,ha_mi200@yahoo.com,25,FL,COLUMBIA COUNTY,0,385480.82,0,558330.42,30.174486,-82.671326,Residential,Masonry,4
+934992,76,Valery,Binette,hetalmehta.30@gmail.com,10,FL,ST  JOHNS COUNTY,0,213596.46,0,190329.82,29.7917,-81.4271,Residential,Wood,4
+645841,14,Kai,Stillson,jitendraram@gmail.com,10,FL,ST  JOHNS COUNTY,0,1051338.42,0,1069841.98,29.7917,-81.4271,Residential,Masonry,4
+747846,16,Teodora,Fenstermaker,nivedita2241@gmail.com,16,FL,ST  JOHNS COUNTY,0,6472.62,0,9957.87,29.7917,-81.4271,Residential,Wood,4
+482457,26,Elmira,Eager,prdpjh@gmail.com,24,FL,ST  JOHNS COUNTY,0,159041.52,0,249984.64,29.776566,-81.47171,Residential,Wood,1
+574787,30,Kathe,Richards,ramjiram@yahoo.com,10,FL,ST  JOHNS COUNTY,0,12945.24,0,19024.97,29.776566,-81.47171,Residential,Wood,1
+831418,89,Lilli,Bunnell,jackiekhatri@gmail.com,4,FL,ST  JOHNS COUNTY,0,29589.12,0,35207.53,29.776566,-81.47171,Residential,Wood,1
+968562,76,Arlean,Joachim,james.kashyap@gmail.com,14,FL,ST  JOHNS COUNTY,0,12945.24,0,16859.05,29.776566,-81.47171,Residential,Wood,1
+576324,23,Meri,Digiovanni,jkhatri@lauren.co.in,9,FL,ST  JOHNS COUNTY,29061,29061,29061,40749.33,29.7255,-81.466309,Residential,Wood,1
+290435,6,Dung,Stander,kuldeepsingh.bit@gmail.com,3,FL,ST  JOHNS COUNTY,48087,48087,48087,68008.1,29.7255,-81.466309,Residential,Wood,1
+526086,3,Lina,Minnix,krishna.inifd@gmail.com,20,FL,ST  JOHNS COUNTY,128628,128628,128628,133425.18,29.7255,-81.466309,Residential,Wood,1
+119823,38,Miranda,Sawtelle,nivedita2241@yahoo.com,23,FL,ST  JOHNS COUNTY,128628,128628,128628,168246.71,29.7255,-81.466309,Residential,Wood,1
+497414,50,Rickie,Butter,krishna.chiripal@gmail.com,17,FL,ST  JOHNS COUNTY,128628,128628,128628,176279.14,29.7255,-81.466309,Residential,Wood,1
+340883,13,Sharika,Rundle,itsmekittu_jk@yahoo.com,11,FL,ST  JOHNS COUNTY,4968,4968,4968,5265.92,29.7255,-81.466309,Residential,Wood,1
+892551,26,Anita,Hocking,like_ritesh@yahoo.co.in,5,FL,ST  JOHNS COUNTY,157005,157005,157005,131774.3,29.7255,-81.466309,Residential,Wood,1
+670595,61,Eilene,Mcdonald,neerajsig@gmail.com,10,FL,ST  JOHNS COUNTY,459,459,459,847.36,29.7255,-81.466309,Residential,Wood,1
+194101,66,Carla,Hazel,rajhansh@gmail.com,21,FL,ST  JOHNS COUNTY,459,459,459,428.69,29.7255,-81.466309,Residential,Wood,1
+167200,83,Wilbert,Hemminger,mca.saurav@gmail.com,2,FL,ST  JOHNS COUNTY,1062,1062,1062,1602.72,29.7255,-81.466309,Residential,Wood,1
+139064,23,Nan,Litten,meommishra@gmail.com,3,FL,ST  JOHNS COUNTY,2304,2304,2304,2474.16,29.7255,-81.466309,Residential,Wood,1
+846636,19,Dane,Oyler,aastha3587@gmail.com,13,FL,ST  JOHNS COUNTY,1476,1476,1476,1935.04,29.7255,-81.466309,Residential,Wood,1
+310177,62,Ciera,Lehn,moving2009@live.ca,6,FL,NASSAU COUNTY,185040,185040,185040,313975.87,30.57332,-81.45291,Residential,Wood,1
+865452,87,Fermin,Herter,manoj.lnct@gmail.com,7,FL,NASSAU COUNTY,0,11095.92,0,11961.62,30.67464,-81.46114,Residential,Wood,3
+783429,0,Cliff,Auman,oraclespeaks@gmail.com,21,FL,NASSAU COUNTY,0,8321.94,0,9646.79,30.67464,-81.46114,Residential,Wood,3
+878060,3,Laverna,Bothe,puja153@gmail.com,22,FL,NASSAU COUNTY,0,199726.56,0,277743.75,30.67423,-81.46052,Residential,Wood,1
+935342,52,Emery,Castle,panabesh.biswas@gmail.com,20,FL,NASSAU COUNTY,0,118356.48,0,182860.76,30.67423,-81.46052,Residential,Wood,1
+456376,18,Claretha,Cashen,pranabeshbiswas@gmail.com,14,FL,NASSAU COUNTY,0,17568.54,0,29936.79,30.67423,-81.46052,Residential,Wood,1
+363001,8,Aracelis,Baisden,prachi.spanish@gmail.com,6,FL,NASSAU COUNTY,0,147945.6,0,238338.59,30.67453,-81.46016,Residential,Wood,1
+478864,73,Kayce,Aikins,rajeev_rajput55@yahoo.com,8,FL,NASSAU COUNTY,0,724933.44,0,767347.85,30.67513,-81.44708,Residential,Masonry,1
+600402,10,Stacee,Gianni,rakesh.r.raman@gmail.com,4,FL,NASSAU COUNTY,0,8284485.6,0,8073943.68,30.64687,-81.45801,Commercial,Reinforced Masonry,1
+483983,40,Elvera,Mcfarlain,vicky21cool@rediffmail.com,2,FL,NASSAU COUNTY,438498,438498,0,636264.11,30.650143,-81.454407,Residential,Masonry,1
+991615,43,Emma,Bastarache,rajputquick@gmail.com,5,FL,NASSAU COUNTY,0,99960.9,0,88679.21,30.6202,-81.4719,Residential,Wood,4
+644573,100,Teddy,Olivarez,rocknroll12@rediffmail.com,22,FL,NASSAU COUNTY,0,669692.78,0,841130.78,30.576765,-81.453979,Residential,Masonry,1
+853278,76,Leighann,Goetzinger,ratnesh2927@gmail.com,7,FL,NASSAU COUNTY,0,240539.39,0,412765.59,30.576765,-81.453979,Residential,Wood,1
+100658,87,Eulah,Stransky,tanmoy.sarkar@cognizant.com,23,FL,NASSAU COUNTY,0,331518.28,0,464703.76,30.6202,-81.4719,Residential,Wood,4
+433115,20,Valerie,Stegner,tanmay1434u@gmail.com,20,FL,NASSAU COUNTY,0,5919.86,0,9839.94,30.576765,-81.453979,Residential,Wood,1
+760337,6,Eusebio,Rison,abhishek.verma.83@gmail.com,6,FL,NASSAU COUNTY,0,77426.73,0,73196.13,30.61988,-81.46815,Residential,Wood,1
+884738,77,Leontine,Wimberly,thakurvis@gmail.com,6,FL,NASSAU COUNTY,0,765763.8,0,735948.78,30.576765,-81.453979,Residential,Masonry,1
+610102,36,Lia,Santucci,waibhaw.verma@cognizant.com,18,FL,NASSAU COUNTY,0,7532014.45,0,10710000,30.671095,-81.462097,Commercial,Reinforced Masonry,1
+830823,13,Venus,Hyun,waibhaw@gmail.com,13,FL,NASSAU COUNTY,0,963962.79,0,977226.92,30.67,-81.462,Residential,Masonry,3
+618364,99,Ida,Trego,waibhaw.verma@gmail.com,1,FL,NASSAU COUNTY,0,121066.57,0,115414.7,30.596535,-81.546837,Residential,Wood,1
+712563,49,Romeo,Mcreynolds,arpjana@gmail.com,2,FL,NASSAU COUNTY,0,70964.84,0,72362.85,30.596535,-81.546837,Residential,Wood,1
+493030,9,Jeannine,Weckerly,alokesh1@yahoo.co.in,20,FL,NASSAU COUNTY,0,755749,0,658571.77,30.57326,-81.45367,Residential,Masonry,1
+188150,55,Marcelino,Real,cacharya1984@gmail.com,25,FL,NASSAU COUNTY,0,2162232,0,2520816.55,30.65372,-81.45105,Commercial,Reinforced Masonry,1
+589642,92,Dottie,Montaluo,akjana_kgp@yahoo.co.in,16,FL,NASSAU COUNTY,0,615141.68,0,895926.17,30.63945,-81.455553,Residential,Masonry,1
+846109,94,Shawanna,Jarvie,alokesh.samui@gmail.com,6,FL,NASSAU COUNTY,0,135000,0,138827.52,30.570326,-81.451576,Residential,Wood,3
+399079,61,Evette,Schlager,007deekay@gmail.com,15,FL,NASSAU COUNTY,0,161748,0,235301.93,30.5708,-81.44959,Residential,Wood,1
+680135,62,Annika,Ruckman,arupratan007@gmail.com,15,FL,NASSAU COUNTY,0,164484,0,194814.85,30.5708,-81.44959,Residential,Wood,1
+621379,96,Colin,Rocamora,ananya.bt.hit@gmail.com,21,FL,NASSAU COUNTY,0,170532,0,178465.15,30.571087,-81.448578,Residential,Wood,1
+606710,62,Malik,Clemons,samanta.iit@gmail.com,11,FL,NASSAU COUNTY,0,181980,0,181216.05,30.570854,-81.448212,Residential,Wood,1
+443319,57,Piper,Schaffer,chanchal_che1985@yahoo.co.in,11,FL,NASSAU COUNTY,0,181980,0,151151.13,30.571154,-81.448433,Residential,Wood,1
+228591,54,Brenda,Snyder,banerjeeaparajita21@gmail.com,9,FL,NASSAU COUNTY,0,186012,0,176389.97,30.5708,-81.44959,Residential,Wood,1
+721610,99,Demetria,Anguiano,skbappa13@yahoo.co.in,22,FL,NASSAU COUNTY,0,192348,0,210005.55,30.571323,-81.450188,Residential,Wood,1
+507395,18,Kimiko,Umberger,binoy6816@gmail.com,19,FL,NASSAU COUNTY,0,197604,0,203450.71,30.570711,-81.448067,Residential,Wood,1
+213399,0,Keira,Heckard,mousumi500@gmail.com,10,FL,NASSAU COUNTY,0,198468,0,202538.58,30.571777,-81.449326,Residential,Wood,1
+579400,87,Eva,Appleberry,rajibbatabyal@gmail.com,1,FL,NASSAU COUNTY,0,198612,0,226675.88,30.5716,-81.45134,Residential,Wood,1
+509951,36,Jermaine,Witherow,burropcy@iitr.ernet.in,19,FL,NASSAU COUNTY,0,200052,0,335395.98,30.57098,-81.44838,Residential,Wood,1
+930798,76,Gary,Ismail,balaram.besu@gmail.com,18,FL,NASSAU COUNTY,0,201276,0,216909.11,30.571613,-81.450577,Residential,Wood,1
+729247,57,Rikki,Creech,knock2chinmoy@gmail.com,3,FL,NASSAU COUNTY,0,207324,0,252344.61,30.5708,-81.44959,Residential,Wood,1
+288344,56,Carrol,Nakasone,chem2007dip@gmail.com,17,FL,NASSAU COUNTY,0,208836,0,310058.81,30.5708,-81.44959,Residential,Wood,1
+275351,58,Loree,Deskins,wb.chandan@gmail.com,13,FL,NASSAU COUNTY,0,212436,0,225030.91,30.57164,-81.450279,Residential,Wood,1
+976690,0,Lanette,Maas,chanchal_vu2007@yahoo.co.in,20,FL,NASSAU COUNTY,0,218052,0,332681.94,30.571306,-81.45015,Residential,Wood,1
+507111,59,Cherri,Barriga,chinmoy.gautamiitrster@gmail.com,17,FL,NASSAU COUNTY,0,218412,0,222125,30.571608,-81.450661,Residential,Wood,1
+547458,74,Francie,Brumbelow,chemkanchan@gmail.com,23,FL,NASSAU COUNTY,0,221076,0,277280.37,30.571609,-81.450615,Residential,Wood,1
+827732,26,Jocelyn,Villatoro,lavi3chem@gmail.com,8,FL,NASSAU COUNTY,0,226764,0,303833.37,30.571665,-81.450089,Residential,Wood,1
+229489,18,Shonda,Papa,shreyam007@gmail.com,13,FL,NASSAU COUNTY,0,237132,0,282225.02,30.571615,-81.450531,Residential,Wood,1
+175251,60,Enrique,Malatesta,chakrabortydebarshi@gmail.com,19,FL,NASSAU COUNTY,0,239652,0,178583.88,30.571812,-81.448822,Residential,Wood,1
+590043,64,Derick,Cordes,vidyarajeesh@gmail.com,19,FL,NASSAU COUNTY,0,245052,0,241166.46,30.571596,-81.450874,Residential,Wood,1
+476037,26,Cecily,Lahman,guchhait.biswajit@gmail.com,10,FL,NASSAU COUNTY,0,245052,0,306551.23,30.5708,-81.44959,Residential,Wood,1
+674960,26,Norene,Corchado,ghosh.sourov@gmail.com,15,FL,NASSAU COUNTY,0,257868,0,338372.33,30.57086,-81.448174,Residential,Wood,1
+743790,54,Myrta,Hanna,goutamcdri@gmail.com,8,FL,NASSAU COUNTY,0,6381518.4,0,8757880.98,30.570326,-81.451576,Commercial,Reinforced Masonry,3
+817283,57,Lolita,Lavender,kousuri@gmail.com,2,FL,NASSAU COUNTY,0,15390000,0,11790000,30.570221,-81.451309,Commercial,Reinforced Concrete,1
+201980,1,Florrie,Trickett,sanjib1giri@gmail.com,6,FL,NASSAU COUNTY,235696.5,235696.5,235696.5,353171.41,30.64448,-81.45489,Residential,Wood,1
+351505,15,Karin,Seamons,guchhaittapas07@gmail.com,19,FL,NASSAU COUNTY,18000,18000,18000,16830,30.653568,-81.449318,Residential,Wood,1
+798806,84,Margaret,Brueggemann,tushar.iacs@gmail.com,17,FL,NASSAU COUNTY,1772074.8,1772074.8,1772074.8,1768133.71,30.65118,-81.44969,Residential,Masonry,1
+153643,86,Ernesto,Mongold,prasenjitghosh322@gmail.com,9,FL,NASSAU COUNTY,95922,95922,95922,150073.42,30.65118,-81.44969,Residential,Wood,1
+683653,8,Arleen,Earnest,susanta.ghanta82@gmail.com,22,FL,NASSAU COUNTY,20763,20763,20763,20966.31,30.65118,-81.44969,Residential,Wood,1
+475264,36,Linwood,Montijo,singhasubhankar@gmail.com,11,FL,NASSAU COUNTY,0,16560000,0,20610000,30.639568,-81.442482,Commercial,Reinforced Concrete,1
+912944,73,Nichelle,Moldenhauer,bhuniasukanya@gmail.com,20,FL,NASSAU COUNTY,0,582759.1,0,1020490.44,30.59491,-81.539909,Residential,Masonry,4
+945134,62,Maude,Rhoten,h.susanta@gmail.com,17,FL,NASSAU COUNTY,0,2244.53,0,2937.46,30.59491,-81.539909,Residential,Wood,4
+219959,76,Caroline,Gabor,karun.jana@gmail.com,18,FL,NASSAU COUNTY,0,196396.18,0,190425.74,30.59491,-81.539909,Residential,Wood,4
+793504,42,Latanya,Sanger,poulamijana123@gmail.com,25,FL,NASSAU COUNTY,0,21500.33,0,19687.96,30.6119,-81.455986,Residential,Wood,3
+450423,12,Dane,Keeley,mrityunjoykar@gmail.com,20,FL,NASSAU COUNTY,0,74091.86,0,110035.31,30.596535,-81.546837,Residential,Wood,1
+505178,70,Kara,Bess,kalyanasis_sahu@yahoo.co.in,17,FL,NASSAU COUNTY,0,86863.23,0,123807.2,30.596535,-81.546837,Residential,Wood,1
+408688,95,Latoya,Malinowski,kharadinesh@gmail.com,14,FL,NASSAU COUNTY,0,796134.02,0,838972.4,30.66665,-81.45235,Residential,Masonry,1
+477759,45,Twanda,Destefano,koushik.ghosh@hdfcbank.com,9,FL,NASSAU COUNTY,0,298522.2,0,227585.86,30.657654,-81.463341,Residential,Wood,1
+882441,99,Sharla,Newburn,md.ikbal.chem@gmail.com,5,FL,NASSAU COUNTY,0,23118.64,0,23505.92,30.65838,-81.46358,Residential,Wood,1
+727602,70,Levi,Paquin,nandan.iitkgp@gmail.com,20,FL,NASSAU COUNTY,0,63407.91,0,78862,30.617165,-81.461609,Residential,Wood,1
+313226,50,Alpha,Hollinger,nimaibar635@gmail.com,24,FL,NASSAU COUNTY,0,285728.39,0,288837.12,30.617874,-81.457794,Residential,Wood,1
+337027,83,Louella,Weedman,sachin.ripu@gmail.com,5,FL,NASSAU COUNTY,0,9016.27,0,9045.12,30.663744,-81.453941,Residential,Wood,4
+649251,8,Luther,Temblador,rpoulami@gmail.com,2,FL,NASSAU COUNTY,0,80915.23,0,98214.9,30.67024,-81.454628,Residential,Wood,3
+142564,24,Zulma,Heenan,pijus@ipc.iisc.ernet.in,18,FL,NASSAU COUNTY,0,28898.3,0,36004.04,30.61945,-81.465965,Residential,Wood,1
+197782,1,Jules,Pattee,rsumita4@yahoo.co.in,23,FL,NASSAU COUNTY,0,1505741.49,0,2197471.6,30.610081,-81.446259,Residential,Masonry,1
+709787,75,Roxy,Clewis,rashmiroy04@gmail.com,17,FL,NASSAU COUNTY,0,53078.59,0,62305.99,30.610081,-81.446259,Residential,Wood,1
+655065,75,Dusti,Sunderman,rabinpanja@gmail.com,23,FL,NASSAU COUNTY,0,162952.72,0,185883.43,30.67044,-81.46572,Residential,Wood,3
+176778,22,Tess,Mattis,rajeevy15@gmail.com,13,FL,NASSAU COUNTY,0,2261249.55,0,1825782.64,30.671413,-81.464905,Commercial,Reinforced Masonry,1
+559179,96,Kacie,Frieden,shantanuchem@gmail.com,2,FL,NASSAU COUNTY,0,1363101.75,0,1619364.87,30.65501,-81.45117,Residential,Masonry,1
+698071,77,Marcelo,Dorough,supratik.chem@gmail.com,25,FL,NASSAU COUNTY,0,295716.54,0,247758.41,30.665545,-81.43205,Residential,Wood,3
+642950,88,Rocco,Coria,ki.online.naki@gmail.com,9,FL,NASSAU COUNTY,0,392231.24,0,344336.66,30.63862,-81.43702,Residential,Masonry,4
+477240,98,Margert,Bottorff,amiyaiitb@gmail.com,12,FL,NASSAU COUNTY,0,192917.17,0,238214.12,30.66665,-81.45235,Residential,Wood,1
+672348,15,Sierra,Gauldin,amrit.cq@gmail.com,4,FL,NASSAU COUNTY,0,168339.59,0,269983.03,30.63833,-81.44564,Residential,Wood,1
+922844,95,Stephania,Touchette,achintya2007@gmail.com,8,FL,NASSAU COUNTY,0,316029.52,0,337216.14,30.617874,-81.457794,Residential,Wood,1
+948580,24,Camilla,Hallum,aakriti.shah@empyrean-partners.com,16,FL,NASSAU COUNTY,0,151505.63,0,185310.32,30.67069,-81.458395,Residential,Wood,3
+364552,23,Phyliss,Hammack,ari.adak@gmail.com,9,FL,NASSAU COUNTY,0,280565.98,0,329505.66,30.65838,-81.46358,Residential,Wood,1
+561601,77,Nicolette,Haubrich,avi.iitb@gmail.com,21,FL,NASSAU COUNTY,0,460128.2,0,792672.06,30.671312,-81.46492,Residential,Masonry,1
+584749,79,Bernadine,Clemans,abdulla.sarder@barclays.com,21,FL,NASSAU COUNTY,0,324000,0,506745.07,30.626793,-81.485847,Residential,Wood,1
+601327,72,Cherry,Buskirk,bbmanna.125@gmail.com,2,FL,COLUMBIA COUNTY,212850,212850,212850,340143.88,29.925,-82.7109,Residential,Wood,1
+302578,54,Charissa,Silas,bindasnavneet@gmail.com,12,FL,COLUMBIA COUNTY,135000,135000,135000,150719.13,29.9248,-82.71114,Residential,Wood,1
+756585,23,Mckenzie,Hibbitts,bbidesh@gmail.com,25,FL,COLUMBIA COUNTY,94284,94284,94284,100714.17,29.90334,-82.63364,Residential,Wood,1
+627591,25,Ahmed,Laviolette,vijitmishra@gmail.com,9,FL,COLUMBIA COUNTY,6300,6300,6300,9566.42,29.919149,-82.639236,Residential,Wood,1
+663563,15,Cherish,Ledet,bibekanandamaji@gmail.com,13,FL,COLUMBIA COUNTY,1248407.1,1248407.1,0,1417531.31,29.9301,-82.7088,Residential,Masonry,3
+108959,56,Misti,Steinhoff,dhananjoy.mondal@wipro.com,11,FL,COLUMBIA COUNTY,0,114170.34,0,136068.22,30.041415,-82.70641,Residential,Wood,3
+951069,36,Matilde,Nault,ep.amandeepkaur@gmail.com,16,FL,COLUMBIA COUNTY,0,498344.66,0,434656.21,29.92143,-82.71411,Residential,Masonry,1
+490641,12,Christoper,Durand,padma.resourcesolutions@gmail.com,14,FL,BAKER COUNTY,0,910.22,0,1346.55,30.265605,-82.16215,Residential,Wood,3
+443968,77,Delsie,Vossen,sdg85in@gmail.com,15,FL,BAKER COUNTY,0,3195.34,0,4551.39,30.27125,-82.160875,Residential,Wood,3
+433688,48,Robbyn,Stutz,debabrataiitb@gmail.com,21,FL,CLAY COUNTY,0,172157.99,0,171582.99,29.980408,-81.658165,Residential,Wood,1
+168578,35,Sabra,Hovey,mitduttaonline@gmail.com,18,FL,CLAY COUNTY,945000,945000,945000,750524.67,30.0517,-81.82975,Residential,Masonry,1
+294375,54,Luetta,Sultan,anirbhai@gmail.com,1,FL,CLAY COUNTY,76500,76500,76500,121368.78,30.0517,-81.82975,Residential,Wood,1
+902110,51,Ligia,Hollars,ashis24@gmail.com,23,FL,CLAY COUNTY,76500,76500,76500,94517.28,30.0517,-81.82975,Residential,Wood,1
+279816,88,Martina,Bustillos,souravsinghroy9@gmail.com,7,FL,CLAY COUNTY,431726.4,431726.4,0,640896.11,29.98839,-81.70777,Residential,Masonry,1
+994565,8,Lenore,Kaina,amit.sinha@cognizant.com,23,FL,CLAY COUNTY,0,11767.98,0,14137.95,29.9826,-81.7238,Residential,Wood,4
+930535,81,Reta,Ruf,bhatt.asit@gmail.com,23,FL,CLAY COUNTY,0,15981.99,0,25400.89,29.9826,-81.7238,Residential,Wood,4
+844642,52,Lydia,Hice,amitkumarsha@gmail.com,1,FL,CLAY COUNTY,0,35302.09,0,47059.67,29.9826,-81.7238,Residential,Wood,4
+292887,75,Lashell,Patch,amlandatt@gmail.com,15,FL,CLAY COUNTY,0,26396.15,0,28938.78,29.9826,-81.7238,Residential,Wood,4
+655128,88,Carlos,Baumgart,anik84@gmail.com,6,FL,CLAY COUNTY,0,7536.5,0,10216,29.9826,-81.7238,Residential,Wood,4
+164038,85,Luz,Wagstaff,asim.ranjan@gmail.com,8,FL,CLAY COUNTY,0,13198.07,0,16695.56,29.9826,-81.7238,Residential,Wood,4
+163057,27,Joanie,Houston,itsme.avijit@gmail.com,16,FL,CLAY COUNTY,0,29410.75,0,25890.52,29.9826,-81.7238,Residential,Wood,4
+327730,94,Masako,Lansford,mukherji.ayan@gmail.com,12,FL,CLAY COUNTY,0,13198.07,0,11239.53,29.9826,-81.7238,Residential,Wood,4
+218187,74,Avelina,Strayer,binod.cts@gmail.com,2,FL,CLAY COUNTY,0,25780.36,0,35155,29.9826,-81.7238,Residential,Wood,4
+697530,14,Dori,Bogert,dhiman.roy@gmail.com,18,FL,CLAY COUNTY,0,9806.65,0,16990.72,29.9826,-81.7238,Residential,Wood,4
+619053,11,Gussie,Frasca,attili.phani@gmail.com,21,FL,CLAY COUNTY,0,15992.1,0,23431.62,29.9826,-81.7238,Residential,Wood,4
+431406,64,Guy,Valle,kiranbala22@gmail.com,7,FL,CLAY COUNTY,0,9806.65,0,7026.15,29.9826,-81.7238,Residential,Wood,3
+256801,40,Breanna,Guin,bknarnoli@gmail.com,18,FL,CLAY COUNTY,0,13198.07,0,22117.33,29.9826,-81.7238,Residential,Wood,4
+571398,99,Wanita,Corella,shashisoni7@gmail.com,7,FL,CLAY COUNTY,0,304842.43,0,250185.41,29.9826,-81.7238,Residential,Wood,3
+239669,39,Charita,Gawronski,brain.indian@gmail.com,19,FL,CLAY COUNTY,0,13198.07,0,13200.19,29.9826,-81.7238,Residential,Wood,3
+530369,94,Karyn,Padro,knockriju@gmail.com,8,FL,CLAY COUNTY,0,48252.01,0,36139.79,29.9826,-81.7238,Residential,Wood,4
+948187,78,Hana,Orton,bhavya1221@gmail.com,21,FL,CLAY COUNTY,0,9806.65,0,13926.22,29.9826,-81.7238,Residential,Wood,3
+571059,44,Annabelle,Mcmenamin,binod_bits@yahoo.co.uk,20,FL,CLAY COUNTY,0,9190.86,0,14678.43,29.9826,-81.7238,Residential,Wood,4
+470539,43,Sanjuanita,Grisby,bishnu.kumar@cognizant.com,24,FL,CLAY COUNTY,0,68931.45,0,85159.98,29.993125,-81.67742,Residential,Wood,3
+791046,43,Pennie,Kates,kishore.bksc@gmail.com,6,FL,CLAY COUNTY,0,68931.45,0,99578.92,29.993125,-81.67742,Residential,Wood,3
+563971,16,Floy,Braham,rajesh.vit05@gmail.com,3,FL,CLAY COUNTY,0,27572.58,0,30033.98,29.993125,-81.67742,Residential,Wood,3
+823903,57,Babette,Gammage,chiradipm@gmail.com,25,FL,CLAY COUNTY,0,13786.29,0,22316.42,29.993125,-81.67742,Residential,Wood,3
+812504,23,Oralee,Yancey,gaurav.chitransh@gmail.com,3,FL,CLAY COUNTY,0,9190.86,0,10540.08,29.9826,-81.7238,Residential,Wood,4
+597719,98,Luna,Westfall,nayananjan.chakraborty@gmail.com,12,FL,CLAY COUNTY,0,102937.63,0,94857.02,29.995916,-81.689049,Residential,Wood,1
+716513,31,Cassaundra,Chacon,chatterjeesatyabrata@gmail.com,24,FL,CLAY COUNTY,0,19605.94,0,18479.62,30.004622,-81.683899,Residential,Wood,3
+378286,47,Cecil,Sluss,Suvajit.Mukhopadhyay@cognizant.com,19,FL,CLAY COUNTY,0,13198.07,0,16161.17,29.9826,-81.7238,Residential,Wood,4
+698982,64,Willie,Bent,4uallforever.raju@gmail.com,10,FL,CLAY COUNTY,0,9806.65,0,12391.68,29.9826,-81.7238,Residential,Wood,4
+624550,6,Dion,Moreles,crazyzone_kiran@yahoo.com,9,FL,CLAY COUNTY,0,9806.65,0,13533.17,29.9826,-81.7238,Residential,Wood,4
+666076,52,Makeda,Stiltner,starpepu@gmail.com,16,FL,CLAY COUNTY,0,11764.3,0,11058.82,29.9826,-81.7238,Residential,Wood,4
+474145,24,Elinore,Hanke,subhro.25@gmail.com,24,FL,CLAY COUNTY,0,7619.22,0,6304.92,29.9826,-81.7238,Residential,Wood,4
+572929,27,Chieko,Schiel,vijetadas@gmail.com,16,FL,CLAY COUNTY,0,13198.07,0,18039.84,29.9826,-81.7238,Residential,Wood,4
+640205,33,Jacqulyn,Oyama,debabrato.sengupta@gmail.com,11,FL,CLAY COUNTY,0,6433.6,0,8588.09,29.9826,-81.7238,Residential,Wood,3
+295930,49,Mathew,Pinkney,debabrato_s@rediffmail.com,17,FL,CLAY COUNTY,0,6617.42,0,5824.75,30.0156,-81.70065,Residential,Wood,3
+823004,21,Elroy,Eshelman,yash.ims@gmail.com,1,FL,CLAY COUNTY,0,9806.65,0,9970.77,29.9826,-81.7238,Residential,Wood,4
+230536,27,Antonina,Kettler,dinkar_jha@yahoo.co.uk,7,FL,CLAY COUNTY,0,8712.94,0,10813.94,30.004385,-81.683762,Residential,Wood,3
+936142,84,Tammi,Duane,sunilkumar167@gmail.com,7,FL,CLAY COUNTY,0,301000.66,0,321265.52,30.00421,-81.684,Residential,Wood,3
+724639,98,Agnus,Eden,saket171983@gmail.com,22,FL,CLAY COUNTY,0,57442.87,0,86664.06,29.9826,-81.7238,Residential,Wood,4
+119986,89,Marget,Mirabella,mukesh56in@gmail.com,20,FL,CLAY COUNTY,0,18381.72,0,15298.37,29.9826,-81.7238,Residential,Wood,4
+603370,52,Dayna,Ketner,bhusi008@gmail.com,11,FL,CLAY COUNTY,0,3032.98,0,4916.61,29.9826,-81.7238,Residential,Wood,4
+532496,79,Giselle,Scheer,gaurav.prasad1@gmail.com,2,FL,CLAY COUNTY,0,3032.98,0,4227.37,29.9826,-81.7238,Residential,Wood,4
+786954,56,Margaretta,Lyttle,gaurav6152@gmail.com,2,FL,CLAY COUNTY,0,9007.04,0,7864.77,30.00169,-81.71087,Residential,Wood,4
+416348,22,Rosenda,Valdivia,somnathgh04@gmail.com,14,FL,CLAY COUNTY,0,18381.72,0,27063.92,29.9826,-81.7238,Residential,Wood,4
+506364,86,Bernadine,Badura,getandy131@gmail.com,15,FL,CLAY COUNTY,0,652150.86,0,614169.6,30.006186,-81.698914,Residential,Masonry,1
+311994,70,Charmaine,Nish,suresh055@gmail.com,19,FL,CLAY COUNTY,0,75824.59,0,85602.93,30.006186,-81.698914,Residential,Wood,1
+807442,64,Andria,Benson,ssfganesh@gmail.com,18,FL,CLAY COUNTY,0,91908.6,0,94516.04,30.006186,-81.698914,Residential,Wood,1
+235695,76,Yolando,Leth,gulsherahmad@gmail.com,14,FL,CLAY COUNTY,0,45954.3,0,41626.05,30.006186,-81.698914,Residential,Wood,1
+481294,58,Arlinda,Mcclure,abhijeetwork@gmail.com,18,FL,CLAY COUNTY,0,64336.02,0,69354.23,30.006186,-81.698914,Residential,Wood,1
+292670,64,Essie,Armendariz,iampraveenkumar@gmail.com,1,FL,CLAY COUNTY,0,234366.92,0,184597.7,30.006186,-81.698914,Residential,Wood,1
+127739,42,Jonathon,Main,harminder23@gmail.com,5,FL,CLAY COUNTY,0,13786.29,0,17192.67,30.006186,-81.698914,Residential,Wood,1
+869056,18,Lavern,Maston,krharikiran@gmail.com,21,FL,CLAY COUNTY,0,22977.15,0,22060.5,29.9994,-81.71524,Residential,Wood,3
+514471,40,Laquita,Schalk,ha_mi200@yahoo.com,12,FL,CLAY COUNTY,0,18381.72,0,27269.28,29.9826,-81.7238,Residential,Wood,3
+903764,0,Veronika,Purdom,hetalmehta.30@gmail.com,18,FL,CLAY COUNTY,0,91908.6,0,130879.31,29.99534,-81.684074,Residential,Wood,3
+192068,61,Beatris,Hiser,jitendraram@gmail.com,22,FL,CLAY COUNTY,0,43840.4,0,39041.19,29.98799,-81.69477,Residential,Wood,3
+109815,7,Rolland,Marcantel,nivedita2241@gmail.com,24,FL,CLAY COUNTY,0,38601.61,0,63272.13,30.00593,-81.698545,Residential,Wood,3
+495339,41,Shalon,Liberatore,prdpjh@gmail.com,6,FL,CLAY COUNTY,0,413588.69,0,420116.77,29.98272,-81.676795,Residential,Masonry,3
+752123,49,Herta,Pechacek,ramjiram@yahoo.com,13,FL,CLAY COUNTY,0,13786.29,0,18320.32,29.9826,-81.7238,Residential,Wood,4
+412775,17,Dodie,Towle,jackiekhatri@gmail.com,18,FL,CLAY COUNTY,0,22977.15,0,28403.71,30.00228,-81.699965,Residential,Wood,3
+249958,26,Jaimie,Jozwiak,james.kashyap@gmail.com,24,FL,CLAY COUNTY,0,25274.86,0,38878,29.96809,-81.65459,Residential,Wood,3
+754919,86,Kim,Matsuda,jkhatri@lauren.co.in,22,FL,CLAY COUNTY,0,27572.58,0,24486.1,29.989515,-81.687235,Residential,Wood,3
+829637,55,Oralia,Pellerin,kuldeepsingh.bit@gmail.com,12,FL,CLAY COUNTY,0,137862.9,0,127544.55,29.989515,-81.687235,Residential,Wood,3
+931429,84,Madaline,Rahm,krishna.inifd@gmail.com,8,FL,CLAY COUNTY,0,91908.6,0,97127.17,29.989515,-81.687235,Residential,Wood,3
+565451,83,Greg,Sama,nivedita2241@yahoo.com,16,FL,CLAY COUNTY,0,22977.15,0,31074.07,30.00414,-81.700315,Residential,Wood,3
+722334,27,Maragret,Pilgrim,krishna.chiripal@gmail.com,22,FL,CLAY COUNTY,0,27572.58,0,36234.34,30.00421,-81.684,Residential,Wood,3
+630898,6,Felicia,Lamark,itsmekittu_jk@yahoo.com,7,FL,CLAY COUNTY,0,77254.74,0,114400.37,29.9817,-81.81295,Residential,Wood,3
+166536,10,Glady,Duford,like_ritesh@yahoo.co.in,11,FL,CLAY COUNTY,0,212887.5,0,184477.66,29.9817,-81.81295,Residential,Wood,3
+469135,45,Bari,Lyons,neerajsig@gmail.com,1,FL,CLAY COUNTY,0,653122.95,0,1049829.83,29.98782,-81.69136,Residential,Masonry,1
+678786,98,Freddie,Signor,rajhansh@gmail.com,17,FL,CLAY COUNTY,0,635702.59,0,803088.17,30.031706,-81.708595,Residential,Masonry,1
+284473,74,Dorothea,Liberto,mca.saurav@gmail.com,8,FL,CLAY COUNTY,0,781465.69,0,1174149.07,29.839308,-81.661644,Residential,Masonry,3
+499389,13,Lewis,Heyd,meommishra@gmail.com,10,FL,CLAY COUNTY,0,638884.47,0,926230.42,29.986181,-81.695091,Residential,Masonry,1
+541241,77,Earnest,Yamashiro,aastha3587@gmail.com,4,FL,CLAY COUNTY,0,1939500,0,3345521.13,29.98,-81.69609,Commercial,Reinforced Masonry,1
+797586,70,Devora,Malm,moving2009@live.ca,22,FL,CLAY COUNTY,0,6760449.39,0,6739694.81,29.99665,-81.68111,Commercial,Reinforced Masonry,1
+812823,46,Stefan,Tejera,manoj.lnct@gmail.com,12,FL,CLAY COUNTY,162366.3,162366.3,162366.3,168942.46,30.026604,-81.70697,Residential,Wood,1
+598244,36,Doyle,Dunkel,oraclespeaks@gmail.com,14,FL,CLAY COUNTY,0,648862.42,0,981993.57,29.981771,-81.675621,Residential,Masonry,3
+788363,99,Destiny,Pappalardo,puja153@gmail.com,7,FL,CLAY COUNTY,0,240578.59,0,192335.37,29.997179,-81.736023,Residential,Wood,1
+737787,62,Sharri,Pavone,panabesh.biswas@gmail.com,5,FL,CLAY COUNTY,0,13467.17,0,14335.1,30.005896,-81.730293,Residential,Wood,1
+445518,36,Lakeisha,Merchant,pranabeshbiswas@gmail.com,9,FL,CLAY COUNTY,0,19639.62,0,24001.58,29.892822,-81.670074,Residential,Wood,1
+758347,81,Dierdre,Kenney,prachi.spanish@gmail.com,15,FL,CLAY COUNTY,0,604316.67,0,622958.63,29.983204,-81.755379,Residential,Masonry,1
+195133,7,Tom,Gainer,rajeev_rajput55@yahoo.com,17,FL,CLAY COUNTY,0,171459.48,0,160656.16,29.983204,-81.755379,Residential,Wood,1
+991548,56,Venus,Ottesen,rakesh.r.raman@gmail.com,18,FL,CLAY COUNTY,0,822091.98,0,885491.72,29.99319,-81.68175,Residential,Masonry,1
+696936,62,Margaret,Kipp,vicky21cool@rediffmail.com,8,FL,CLAY COUNTY,0,85444.69,0,124562.37,30.00093,-81.679455,Residential,Wood,3
+393176,82,Tanya,Philbrick,rajputquick@gmail.com,5,FL,CLAY COUNTY,0,26934.33,0,34616.01,30.00135,-81.742455,Residential,Wood,3
+626647,23,Jerri,Harth,rocknroll12@rediffmail.com,11,FL,CLAY COUNTY,0,162728.27,0,266906.9,30.00135,-81.742455,Residential,Wood,3
+915781,73,Ta,Hafley,ratnesh2927@gmail.com,6,FL,CLAY COUNTY,0,589356.89,0,472322.4,30.00135,-81.742455,Residential,Masonry,3
+827852,3,Dario,Weiser,tanmoy.sarkar@cognizant.com,11,FL,CLAY COUNTY,0,13657.95,0,19860.19,30.00135,-81.742455,Residential,Wood,3
+800420,42,Trinidad,Foutch,tanmay1434u@gmail.com,6,FL,CLAY COUNTY,0,64726.57,0,71551.34,29.983204,-81.755379,Residential,Wood,1
+728346,8,Elene,Whitwell,abhishek.verma.83@gmail.com,24,FL,CLAY COUNTY,0,2603338.04,0,3496699.52,29.983204,-81.755379,Commercial,Reinforced Masonry,1
+928642,68,Agnus,Schult,thakurvis@gmail.com,11,FL,CLAY COUNTY,0,67335.83,0,69182.52,29.983204,-81.755379,Residential,Wood,1
+442061,7,Taisha,Yarberry,waibhaw.verma@cognizant.com,13,FL,CLAY COUNTY,0,22445.28,0,24191.61,29.983204,-81.755379,Residential,Wood,1
+810826,71,Taina,Mcnerney,waibhaw@gmail.com,10,FL,CLAY COUNTY,0,31984.52,0,52870.8,29.983204,-81.755379,Residential,Wood,1
+336798,86,Felipe,Providence,waibhaw.verma@gmail.com,6,FL,CLAY COUNTY,0,44890.56,0,60419.64,29.983204,-81.755379,Residential,Wood,1
+830917,92,Susanne,Connolly,arpjana@gmail.com,24,FL,CLAY COUNTY,0,15341.35,0,20025.98,29.983204,-81.755379,Residential,Wood,1
+984232,49,Rocky,Tye,alokesh1@yahoo.co.in,14,FL,CLAY COUNTY,0,1748172.94,0,2274163.21,29.99146,-81.67947,Residential,Masonry,1
+203667,83,Jodee,Braden,cacharya1984@gmail.com,5,FL,CLAY COUNTY,0,212051.77,0,205713.96,30.024078,-81.714539,Residential,Wood,1
+395084,62,Lourdes,Sharpton,akjana_kgp@yahoo.co.in,25,FL,CLAY COUNTY,0,238222.96,0,347967.51,30.024078,-81.714539,Residential,Wood,1
+869242,37,Juan,Siddiqi,alokesh.samui@gmail.com,19,FL,CLAY COUNTY,0,174354.92,0,187374.87,30.024033,-81.714836,Residential,Wood,1
+704537,96,Tracee,Crawford,007deekay@gmail.com,18,FL,CLAY COUNTY,0,29086.84,0,39703.53,29.9826,-81.7238,Residential,Wood,4
+692691,59,Heike,Mizzell,arupratan007@gmail.com,3,FL,CLAY COUNTY,0,49883.51,0,54682.3,29.99501,-81.69407,Residential,Wood,3
+580758,4,Genia,Hardin,ananya.bt.hit@gmail.com,23,FL,CLAY COUNTY,0,33850.85,0,47324.63,30.046192,-81.795082,Residential,Wood,1
+515486,0,Mallory,Calero,samanta.iit@gmail.com,9,FL,CLAY COUNTY,0,14204.49,0,21284.3,30.046192,-81.795082,Residential,Wood,1
+884079,73,Laurence,Borgmann,chanchal_che1985@yahoo.co.in,19,FL,CLAY COUNTY,0,60112.94,0,67485.56,30.046192,-81.795082,Residential,Wood,1
+491095,97,Kit,Alvey,banerjeeaparajita21@gmail.com,16,FL,CLAY COUNTY,0,776595.4,0,788694.76,29.9826,-81.7238,Residential,Masonry,4
+579764,26,Joella,Snelling,skbappa13@yahoo.co.in,7,FL,CLAY COUNTY,0,88434.4,0,110143.27,29.9826,-81.7238,Residential,Wood,1
+263177,56,Leigh,Palazzolo,binoy6816@gmail.com,5,FL,CLAY COUNTY,0,61724.52,0,50970.62,29.992,-81.68678,Residential,Wood,1
+710739,52,Matilda,Villescas,mousumi500@gmail.com,4,FL,CLAY COUNTY,0,33667.92,0,45290.08,29.99327,-81.724515,Residential,Wood,3
+156129,14,Zonia,Roesch,rajibbatabyal@gmail.com,25,FL,CLAY COUNTY,0,64275.42,0,80342.73,29.992,-81.68678,Residential,Wood,1
+178800,55,Gaylene,Coppage,burropcy@iitr.ernet.in,19,FL,BRADFORD COUNTY,216363.6,216363.6,0,347251.89,29.869762,-82.202431,Residential,Wood,1
+406073,62,Felisha,Paley,balaram.besu@gmail.com,9,FL,BRADFORD COUNTY,0,106317.27,0,105384.87,29.86261,-82.135475,Residential,Wood,3
+450089,9,Shelby,Bastian,knock2chinmoy@gmail.com,6,FL,BRADFORD COUNTY,0,170207.57,0,148194.97,29.864408,-82.135536,Residential,Wood,1
+894206,78,Kristina,Castile,chem2007dip@gmail.com,9,FL,NASSAU COUNTY,189999.9,189999.9,0,291171.43,30.687055,-81.9198,Residential,Wood,1
+472007,35,Shaquana,Mink,wb.chandan@gmail.com,24,FL,NASSAU COUNTY,635996.7,635996.7,0,1010881.77,30.7595,-81.9576,Residential,Masonry,4
+500287,21,Minh,Bridgeman,chanchal_vu2007@yahoo.co.in,19,FL,NASSAU COUNTY,1729530,1729530,0,2062651.31,30.69844,-81.908635,Residential,Masonry,4
+365732,100,Lenita,Buttram,chinmoy.gautamiitrster@gmail.com,15,FL,NASSAU COUNTY,0,110218.53,0,114569.52,30.690071,-81.919342,Residential,Wood,3
+365145,9,Elidia,Neves,chemkanchan@gmail.com,3,FL,NASSAU COUNTY,0,123995.38,0,142594.69,30.690071,-81.919342,Residential,Wood,3
+237841,80,Sharan,Schipper,lavi3chem@gmail.com,24,FL,NASSAU COUNTY,0,13777.78,0,22931.74,30.690071,-81.919342,Residential,Wood,3
+497561,16,Johnathon,Port,shreyam007@gmail.com,18,FL,NASSAU COUNTY,0,38954.52,0,30813.03,30.692579,-81.923798,Residential,Wood,1
+245837,43,Boyce,Mcfadden,chakrabortydebarshi@gmail.com,25,FL,NASSAU COUNTY,0,428020.45,0,590955.85,30.692579,-81.923798,Residential,Masonry,1
+732075,88,Lala,Lothrop,vidyarajeesh@gmail.com,15,FL,NASSAU COUNTY,0,38954.52,0,44390.39,30.687847,-81.928619,Residential,Wood,3
+657625,51,Katelyn,Decaro,guchhait.biswajit@gmail.com,9,FL,NASSAU COUNTY,0,3505598.5,0,5610030.32,30.698156,-81.917923,Commercial,Reinforced Masonry,1
+790556,34,Hyon,Mcgraw,ghosh.sourov@gmail.com,1,FL,NASSAU COUNTY,0,140160.38,0,195355.54,30.692579,-81.923798,Residential,Wood,1
+207626,41,Shirely,Conlon,goutamcdri@gmail.com,1,FL,NASSAU COUNTY,0,60397.19,0,73202.3,30.68227,-82.010965,Residential,Wood,3
+902008,65,Ines,Avilla,kousuri@gmail.com,12,FL,NASSAU COUNTY,0,1138559.14,0,1124171.17,30.68758,-81.90805,Residential,Masonry,1
+135936,21,Dewey,Points,sanjib1giri@gmail.com,25,FL,HAMILTON COUNTY,0,4623.3,0,7055.16,30.51869,-82.95187,Residential,Wood,3
+997759,27,Echo,Alvis,guchhaittapas07@gmail.com,24,FL,HAMILTON COUNTY,0,34212.42,0,42302.97,30.51869,-82.95187,Residential,Wood,3
+470224,94,Dulcie,Stours,tushar.iacs@gmail.com,22,FL,HAMILTON COUNTY,0,11095.92,0,10246.42,30.51869,-82.95187,Residential,Wood,3
+367761,66,Corrine,Pricer,prasenjitghosh322@gmail.com,11,FL,HAMILTON COUNTY,0,25899.23,0,35000.32,30.505239,-82.95285,Residential,Wood,1
+285586,68,Cindie,Klimek,susanta.ghanta82@gmail.com,21,FL,HAMILTON COUNTY,0,10211.17,0,18829.64,30.505239,-82.95285,Residential,Wood,1
+122164,68,Dirk,Selleck,singhasubhankar@gmail.com,21,FL,HAMILTON COUNTY,0,4084.47,0,3579.34,30.496,-82.9527,Residential,Wood,4
+152913,20,Malorie,Wilber,bhuniasukanya@gmail.com,22,FL,HAMILTON COUNTY,0,26920.35,0,28007.93,30.465835,-83.006185,Residential,Wood,3
+655156,29,Raisa,Gallant,h.susanta@gmail.com,24,FL,HAMILTON COUNTY,0,80668.21,0,70626.63,30.523375,-82.95845,Residential,Wood,1
+989201,15,Sanora,Sommerfield,karun.jana@gmail.com,7,FL,HAMILTON COUNTY,0,70642.7,0,63476.71,30.523375,-82.95845,Residential,Wood,1
+207985,20,Chanel,Mandujano,poulamijana123@gmail.com,10,FL,HAMILTON COUNTY,0,263169.6,0,368477.97,30.52085,-82.950535,Residential,Wood,4
+732449,30,Cleo,Scardina,mrityunjoykar@gmail.com,23,FL,HAMILTON COUNTY,0,15873.72,0,12857.71,30.51929,-82.94598,Residential,Wood,1
+665653,19,Brady,Chesson,kalyanasis_sahu@yahoo.co.in,9,FL,HAMILTON COUNTY,0,246924.56,0,419574.22,30.519608,-82.954086,Residential,Wood,1
+939634,35,Vida,Ullrich,kharadinesh@gmail.com,5,FL,HAMILTON COUNTY,0,942304.98,0,1133298.89,30.496,-82.9527,Residential,Masonry,4
+981796,3,Janie,Hodges,koushik.ghosh@hdfcbank.com,5,FL,HAMILTON COUNTY,0,12996.03,0,17111.87,30.52296,-82.955515,Residential,Wood,4
+269573,59,Terrance,Nordberg,md.ikbal.chem@gmail.com,8,FL,HAMILTON COUNTY,0,42886.9,0,66233.75,30.496,-82.9527,Residential,Wood,3
+602123,99,Bella,Sproles,nandan.iitkgp@gmail.com,22,FL,HAMILTON COUNTY,0,2784.86,0,4613.35,30.496,-82.9527,Residential,Wood,4
+336717,20,Eden,Greg,nimaibar635@gmail.com,13,FL,HAMILTON COUNTY,0,105764.12,0,116617.63,30.518326,-82.948914,Residential,Wood,1
+238449,36,Lashawna,Mcdonagh,sachin.ripu@gmail.com,20,FL,HAMILTON COUNTY,0,18419.71,0,26153.37,30.496,-82.9527,Residential,Wood,3
+530357,64,Jazmin,Forsyth,rpoulami@gmail.com,4,FL,HAMILTON COUNTY,0,36836.28,0,38632.56,30.52904,-82.960715,Residential,Wood,3
+896911,58,Wade,Cangelosi,pijus@ipc.iisc.ernet.in,4,FL,HAMILTON COUNTY,0,214534.66,0,252790.47,30.496,-82.9527,Residential,Wood,3
+391646,16,Jolie,Toye,rsumita4@yahoo.co.in,16,FL,HAMILTON COUNTY,0,44199.98,0,54449.07,30.496,-82.9527,Residential,Wood,3
+710345,98,Reynaldo,Lucy,rashmiroy04@gmail.com,16,FL,HAMILTON COUNTY,0,51130.14,0,53139.05,30.496,-82.9527,Residential,Wood,3
+944525,87,Freeda,Vankleeck,rabinpanja@gmail.com,17,FL,HAMILTON COUNTY,194537.7,194537.7,0,156395.86,30.5696,-83.1456,Residential,Wood,4
+800878,96,Roselyn,Gainer,rajeevy15@gmail.com,2,FL,HAMILTON COUNTY,0,28776.92,0,32189.87,30.599605,-83.236685,Residential,Wood,3
+866106,1,Brook,Everson,shantanuchem@gmail.com,17,FL,HAMILTON COUNTY,0,151310.92,0,158091.16,30.58925,-83.09455,Residential,Wood,1
+204794,21,Cassy,Gesell,supratik.chem@gmail.com,10,FL,HAMILTON COUNTY,0,179562.23,0,147384.67,30.5696,-83.1456,Residential,Wood,1
+849458,87,Romona,Torian,ki.online.naki@gmail.com,15,FL,HAMILTON COUNTY,0,16833.96,0,19110.92,30.5696,-83.1456,Residential,Wood,4
+806471,40,Soo,Gertner,amiyaiitb@gmail.com,4,FL,HAMILTON COUNTY,0,24914.26,0,33937.58,30.5696,-83.1456,Residential,Wood,3
+464589,53,Armandina,Gervasi,amrit.cq@gmail.com,14,FL,HAMILTON COUNTY,0,169461.85,0,242525.33,30.603361,-83.09906,Residential,Wood,1
+591943,46,Tifany,Sines,achintya2007@gmail.com,23,FL,UNION COUNTY,407520,407520,407520,652935.06,30.02339,-82.3414,Residential,Masonry,3
+973133,89,Mellissa,Lint,aakriti.shah@empyrean-partners.com,18,FL,UNION COUNTY,137160,137160,137160,235651.85,30.02339,-82.3414,Residential,Wood,3
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
