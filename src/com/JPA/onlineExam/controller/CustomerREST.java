@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/customers", produces = { MediaType.APPLICATION_JSON_VALUE })
-public class CustomerController {
+public class CustomerREST {
 
+	
+	
 }
