@@ -12,12 +12,37 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import com.JPA.onlineExam.model.Customer;
+import com.JPA.onlineExam.repository.CustomerRepository;
 import com.opencsv.bean.CsvToBeanBuilder;
 
+@Service
 public class FromCSVtoDB {
+	@Autowired
+	CustomerRepository repository;
 
+	public CustomerRepository getRepository() {
+		return repository;
+	}
+
+	public void setRepository(CustomerRepository repository) {
+		this.repository = repository;
+	}
+
+	// Crontoller caller function 
+	public void CreateData() throws IOException {
+		List<Customer> customerList = CSVtoCustomerObject();
+		customerList.forEach(x -> repository.save(x));
+//		custlist1.forEach(x -> em.persist(x));
+//		customerList.forEach(x -> em.merge(x));
+
+	}
+
+	// read the data from a CSV file 
 	public List<Customer> CSVtoCustomerObject() throws IOException {
 
 		String fileName = "data/customerDBSample.csv";
@@ -33,6 +58,7 @@ public class FromCSVtoDB {
 	}
 
 	@Test
+	// Local test functions with primitive entityManager 
 	public void CreateUpdateData() throws IOException {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("JPA_Online_Exam");
 		EntityManager em = emf.createEntityManager();
