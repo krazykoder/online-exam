@@ -13,7 +13,6 @@ import javax.persistence.Persistence;
 
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import com.JPA.onlineExam.modeltest.Customer;
@@ -33,7 +32,7 @@ public class FromCSVtoDB {
 		this.repository = repository;
 	}
 
-	// Crontoller caller function 
+	// Controller caller function 
 	public void CreateData() throws IOException {
 		List<Customer> customerList = CSVtoCustomerObject();
 		customerList.forEach(x -> repository.save(x));
